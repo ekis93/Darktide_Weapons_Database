@@ -1,0 +1,38 @@
+create table Specs
+(
+    Weapon                        nvarchar(100),
+    Class                         nvarchar(100),
+    Level                         int,
+    [Spec – 1]                    nvarchar(100),
+    [Spec – 2]                    nvarchar(100),
+    DamageVsFirstTarget1Low       float,
+    DamageVsFirstTarget1High      float,
+    DamageVsFirstTarget2Low       float,
+    DamageVsFirstTarget2High      float,
+    SprintCostLow                 float,
+    SprintCostHigh                float,
+    PushCostLow                   float,
+    PushCostHigh                  float,
+    AttackSpeedLow                float,
+    AttackSpeedHigh               float,
+    DodgeDistanceLow              float,
+    DodgeDistanceHigh             float,
+    DodgeLimitLow                 float,
+    DodgeLimitHigh                float,
+    SprintSpeedLow                float,
+    SprintSpeedHigh               float,
+    DamageVsFlakArmoured1Low      float,
+    DamageVsFlakArmoured1High     float,
+    DamageVsCarapaceArmoured1Low  float,
+    DamageVsCarapaceArmoured1High float,
+    DamageVsFlakArmoured2Low      float,
+    DamageVsFlakArmoured2High     float,
+    DamageVsCarapaceArmoured2Low  float,
+    DamageVsCarapaceArmoured2High float,
+    [Primary action]              nvarchar(100),
+    [Secondary action]            nvarchar(100),
+    [Special action]              nvarchar(100),
+    Type                          nvarchar(50)
+)
+go
+

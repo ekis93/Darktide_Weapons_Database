@@ -101,7 +101,7 @@ Found a wrong value or missing weapon? [Open an issue](../../issues) or submit a
 
 # License
 
-The schema and documentation in this repository are dedicated to the public domain under [CC0 1.0](LICENSE).
+The schema and documentation in this repository are dedicated to the public domain under [CC0 1.0](LICENSE.txt).
 
 The weapon data was collected from [Games Lantern](https://darktide.gameslantern.com/) and remains subject to their [terms of use](https://gameslantern.com/terms-of-use). Game data and names are the property of Fatshark.
 ---

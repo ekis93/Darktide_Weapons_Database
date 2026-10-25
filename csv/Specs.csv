@@ -1,0 +1,335 @@
+#,Weapon,Class,Level,Spec – 1,Spec – 2,DamageVsFirstTarget1Low,DamageVsFirstTarget1High,DamageVsFirstTarget2Low,DamageVsFirstTarget2High,SprintCostLow,SprintCostHigh,PushCostLow,PushCostHigh,AttackSpeedLow,AttackSpeedHigh,DodgeDistanceLow,DodgeDistanceHigh,DodgeLimitLow,DodgeLimitHigh,SprintSpeedLow,SprintSpeedHigh,DamageVsFlakArmoured1Low,DamageVsFlakArmoured1High,DamageVsCarapaceArmoured1Low,DamageVsCarapaceArmoured1High,DamageVsFlakArmoured2Low,DamageVsFlakArmoured2High,DamageVsCarapaceArmoured2Low,DamageVsCarapaceArmoured2High,Primary action,Secondary action,Special action,Type
+1,"""Brunt Special"" Mk I Bully Club",Ogryn,1,Versatile,Strikedown,127.5,182.5,312.5,437.5,1.75,1.25,2.25,0.75,1,1.14,0.85,0.95,2,3,-0.23,0.23,0.66,1.18,0.27,0.54,0.66,1.18,0.53,0.99,Vanguard,Strikedown,Punch,Melee
+2,"""Brunt's Basher"" Mk IIIb Bully Club",Ogryn,1,Crowd Control,Strikedown,190,270,112.5,157.5,1.75,1.25,2.25,0.75,1,1.14,0.85,0.95,2,3,-0.23,0.23,0.66,1.18,0.34,0.68,0.58,1.05,0.34,0.68,Relentless,Relentless,Punch,Melee
+3,"""Brunt's Pride"" Mk II Bully Club",Ogryn,1,Crowd Control,Strikedown,312.5,437.5,127.5,182.5,1.75,1.25,2.25,0.75,1,1.14,0.85,0.95,2,3,-0.23,0.23,0.66,1.18,0.53,0.99,0.66,1.18,0.27,0.54,Vanguard,Relentless,Punch,Melee
+4,Accatran MG Mk II Heavy Laspistol,Zealot,8,Mobile,High Capacity,,,,,,,,,,,0.89,0.96,2,3,0.53,0.98,,,,,,,,,Hip Fire • Semi-automatic,Aim Down Sights • Semi-automatic,Push,Ranged
+5,Accatran MG Mk II Heavy Laspistol,Psyker,1,Mobile,High Capacity,,,,,,,,,,,0.89,0.96,2,3,0.53,0.98,,,,,,,,,Hip Fire • Semi-automatic,Aim Down Sights • Semi-automatic,Push,Ranged
+6,Accatran MG Mk II Heavy Laspistol,Veteran,8,Mobile,High Capacity,,,,,,,,,,,0.89,0.96,2,3,0.53,0.98,,,,,,,,,Hip Fire • Semi-automatic,Aim Down Sights • Semi-automatic,Push,Ranged
+7,Accatran MG Mk II Heavy Laspistol,Skitarii,3,Mobile,High Capacity,,,,,,,,,,,0.89,0.96,2,3,0.53,0.98,,,,,,,,,Hip Fire • Semi-automatic,Aim Down Sights • Semi-automatic,Push,Ranged
+8,Accatran Mk III Huntsman's Shotgun,Zealot,19,Close Combat,High Damage,,,,,,,,,,,0.75,0.85,3,4,-0.45,0.45,,,,,,,,,Hip Fire • Shotgun,Aim Down Sights • Shotgun,Torch,Ranged
+9,Accatran Mk III Huntsman's Shotgun,Veteran,20,Close Combat,High Damage,,,,,,,,,,,0.75,0.85,3,4,-0.45,0.45,,,,,,,,,Hip Fire • Shotgun,Aim Down Sights • Shotgun,Torch,Ranged
+10,Accatran Mk III Huntsman's Shotgun,Hive Scum,9,Close Combat,High Damage,,,,,,,,,,,0.75,0.85,3,4,-0.45,0.45,,,,,,,,,Hip Fire • Shotgun,Aim Down Sights • Shotgun,Torch,Ranged
+11,Accatran Mk III Huntsman's Shotgun,Psyker,19,Close Combat,High Damage,,,,,,,,,,,0.75,0.85,3,4,-0.45,0.45,,,,,,,,,Hip Fire • Shotgun,Aim Down Sights • Shotgun,Torch,Ranged
+12,Accatran Mk IX Combat Shotgun,Zealot,3,Spreadshot,High Damage,,,,,,,,,,,0.75,0.85,3,4,-0.2,0.8,,,,,,,,,Hip Fire • Shotgun,Aim Down Sights • Shotgun,Special Ammo,Ranged
+13,Accatran Mk IX Combat Shotgun,Veteran,8,Spreadshot,High Damage,,,,,,,,,,,0.75,0.85,3,4,-0.2,0.8,,,,,,,,,Hip Fire • Shotgun,Aim Down Sights • Shotgun,Special Ammo,Ranged
+14,Accatran Mk IX Combat Shotgun,Psyker,11,Spreadshot,High Damage,,,,,,,,,,,0.75,0.85,3,4,-0.2,0.8,,,,,,,,,Hip Fire • Shotgun,Aim Down Sights • Shotgun,Special Ammo,Ranged
+15,Accatran Mk IX Combat Shotgun,Arbites,8,Spreadshot,High Damage,,,,,,,,,,,0.75,0.85,3,4,-0.2,0.8,,,,,,,,,Hip Fire • Shotgun,Aim Down Sights • Shotgun,Special Ammo,Ranged
+16,Accatran Mk IX Combat Shotgun,Hive Scum,12,Spreadshot,High Damage,,,,,,,,,,,0.75,0.85,3,4,-0.2,0.8,,,,,,,,,Hip Fire • Shotgun,Aim Down Sights • Shotgun,Special Ammo,Ranged
+17,Accatran Mk VIc Recon Lasgun,Psyker,13,Rapid Fire,High Capacity,,,,,,,,,,,0.89,0.96,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Fully automatic,Aim Down Sights • Fully automatic,Torch,Ranged
+18,Accatran Mk VIc Recon Lasgun,Veteran,11,Rapid Fire,High Capacity,,,,,,,,,,,0.89,0.96,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Fully automatic,Aim Down Sights • Fully automatic,Torch,Ranged
+19,Accatran Mk VIc Recon Lasgun,Zealot,17,Rapid Fire,High Capacity,,,,,,,,,,,0.89,0.96,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Fully automatic,Aim Down Sights • Fully automatic,Torch,Ranged
+20,Accatran Mk XII Recon Lasgun,Psyker,13,Torrent,High Capacity,,,,,,,,,,,0.89,0.96,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Fully automatic,Aim Down Sights • Fully automatic,Torch,Ranged
+21,Accatran Mk XII Recon Lasgun,Veteran,11,Torrent,High Capacity,,,,,,,,,,,0.89,0.96,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Fully automatic,Aim Down Sights • Fully automatic,Torch,Ranged
+22,Accatran Mk XII Recon Lasgun,Zealot,17,Torrent,High Capacity,,,,,,,,,,,0.89,0.96,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Fully automatic,Aim Down Sights • Fully automatic,Torch,Ranged
+23,Accatran Mk XIV Recon Lasgun,Veteran,11,Rapid Fire,High Capacity,,,,,,,,,,,0.89,0.96,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Fully automatic,Aim Down Sights • Fully automatic,Torch,Ranged
+24,Accatran Mk XIV Recon Lasgun,Psyker,13,Rapid Fire,High Capacity,,,,,,,,,,,0.89,0.96,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Fully automatic,Aim Down Sights • Fully automatic,Torch,Ranged
+25,Accatran Mk XIV Recon Lasgun,Zealot,17,Rapid Fire,High Capacity,,,,,,,,,,,0.89,0.96,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Fully automatic,Aim Down Sights • Fully automatic,Torch,Ranged
+26,Achlys Mk I Power Maul,Ogryn,6,Crowd Control,Power Weapon,225,315,137.5,192.5,1.25,0.75,3,1,,,,,,,,,0.66,1.18,0.53,0.99,0.66,1.18,0.34,0.68,Strikedown,Relentless,Warp Charged,Melee
+27,Achlys Mk II Heavy Stubber,Ogryn,16,High Damage,Precise,395,665,,,,,,,,,,,,,,,,,,,,,,,Hip Fire • Fully automatic,Braced • Semi-automatic,Torch,Ranged
+28,Achlys Mk VI Power Sword,Veteran,13,Cleaving Strike,Power Weapon,100,140,150,210,,,,,1,1.14,0.8,0.9,2,3,-0.45,0.45,,,,,,,,,Vanguard,Vanguard,Warp Charged,Melee
+29,Achlys Mk VII Twin-Linked Heavy Stubber,Ogryn,6,High Capacity,Torrent,,,,,,,,,,,,,,,,,,,,,,,,,Hip Fire • Fully automatic,Braced • Fully automatic,Bash,Ranged
+30,Achlys Mk VIII Combat Axe,Psyker,1,Strikedown,Armour Piercing,193.75,271.25,175,245,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,0.74,1.3,0.58,1.05,0.74,1.3,0.13,0.28,Strikedown,Strikedown,Special Melee Attack,Melee
+31,Achlys Mk VIII Combat Axe,Zealot,1,Strikedown,Armour Piercing,193.75,271.25,175,245,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,0.74,1.3,0.58,1.05,0.74,1.3,0.13,0.28,Strikedown,Strikedown,Special Melee Attack,Melee
+32,Achlys Mk VIII Combat Axe,Veteran,1,Strikedown,Armour Piercing,193.75,271.25,175,245,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,0.74,1.3,0.58,1.05,0.74,1.3,0.13,0.28,Strikedown,Strikedown,Special Melee Attack,Melee
+33,Achlys Mk VIII Combat Axe,Arbites,1,Strikedown,Armour Piercing,193.75,271.25,175,245,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,0.74,1.3,0.58,1.05,0.74,1.3,0.13,0.28,Strikedown,Strikedown,Special Melee Attack,Melee
+34,Achlys Mk VIII Combat Axe,Hive Scum,4,Strikedown,Armour Piercing,193.75,271.25,175,245,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,0.74,1.3,0.58,1.05,0.74,1.3,0.13,0.28,Strikedown,Strikedown,Special Melee Attack,Melee
+35,Agni Mk Ia Shock Maul,Zealot,16,Crowd Control,Shock,217.5,332.5,123.75,151.25,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,0.66,1.18,0.53,0.99,0.66,1.18,0.27,0.54,Strikedown,Strikedown,Special Melee Attack,Melee
+36,Agni Mk Ia Shock Maul,Psyker,17,Crowd Control,Shock,217.5,332.5,123.75,151.25,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,0.66,1.18,0.53,0.99,0.66,1.18,0.27,0.54,Strikedown,Strikedown,Special Melee Attack,Melee
+37,Agni Mk Ia Shock Maul,Veteran,17,Crowd Control,Shock,217.5,332.5,123.75,151.25,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,0.66,1.18,0.53,0.99,0.66,1.18,0.27,0.54,Strikedown,Strikedown,Special Melee Attack,Melee
+38,Agni Mk Ia Shock Maul,Arbites,13,Crowd Control,Shock,217.5,332.5,123.75,151.25,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,0.66,1.18,0.53,0.99,0.66,1.18,0.27,0.54,Strikedown,Strikedown,Special Melee Attack,Melee
+39,Agripinaa Mk I Infantry Autogun,Zealot,14,Rapid Fire,Precise,,,,,,,,,,,0.7,0.8,2,3,-0.45,0.45,,,,,,,,,Hip Fire • Fully automatic,Aim Down Sights • Fully automatic,Torch,Ranged
+40,Agripinaa Mk I Infantry Autogun,Psyker,1,Rapid Fire,Precise,,,,,,,,,,,0.7,0.8,2,3,-0.45,0.45,,,,,,,,,Hip Fire • Fully automatic,Aim Down Sights • Fully automatic,Torch,Ranged
+41,Agripinaa Mk I Infantry Autogun,Veteran,1,Rapid Fire,Precise,,,,,,,,,,,0.7,0.8,2,3,-0.45,0.45,,,,,,,,,Hip Fire • Fully automatic,Aim Down Sights • Fully automatic,Torch,Ranged
+42,Agripinaa Mk I Infantry Autogun,Arbites,1,Rapid Fire,Precise,,,,,,,,,,,0.7,0.8,2,3,-0.45,0.45,,,,,,,,,Hip Fire • Fully automatic,Aim Down Sights • Fully automatic,Torch,Ranged
+43,Agni Mk Ia Shock Maul,Skitarii,11,Crowd Control,Shock,217.5,332.5,123.75,151.25,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,0.66,1.18,0.53,0.99,0.66,1.18,0.27,0.54,Strikedown,Strikedown,Special Melee Attack,Melee
+44,Agripinaa Mk I Infantry Autogun,Hive Scum,7,Rapid Fire,Precise,,,,,,,,,,,0.7,0.8,2,3,-0.45,0.45,,,,,,,,,Hip Fire • Fully automatic,Aim Down Sights • Fully automatic,Torch,Ranged
+45,Agripinaa Mk I Infantry Autogun,Skitarii,5,Rapid Fire,Precise,,,,,,,,,,,0.7,0.8,2,3,-0.45,0.45,,,,,,,,,Hip Fire • Fully automatic,Aim Down Sights • Fully automatic,Torch,Ranged
+46,Agripinaa Mk IX Vigilant Autogun,Psyker,4,Burst-fire,Precise,,,,,,,,,,,0.7,0.8,2,3,-0.45,0.45,,,,,,,,,Hip Fire • Burst-fire,Aim Down Sights • Burst-fire,Bash,Ranged
+47,Agripinaa Mk IX Vigilant Autogun,Veteran,3,Burst-fire,Precise,,,,,,,,,,,0.7,0.8,2,3,-0.45,0.45,,,,,,,,,Hip Fire • Burst-fire,Aim Down Sights • Burst-fire,Bash,Ranged
+48,Agripinaa Mk IX Vigilant Autogun,Zealot,5,Burst-fire,Precise,,,,,,,,,,,0.7,0.8,2,3,-0.45,0.45,,,,,,,,,Hip Fire • Burst-fire,Aim Down Sights • Burst-fire,Bash,Ranged
+49,Agripinaa Mk IX Vigilant Autogun,Arbites,3,Burst-fire,Precise,,,,,,,,,,,0.7,0.8,2,3,-0.45,0.45,,,,,,,,,Hip Fire • Burst-fire,Aim Down Sights • Burst-fire,Bash,Ranged
+50,Agripinaa Mk IX Vigilant Autogun,Hive Scum,14,Burst-fire,Precise,,,,,,,,,,,0.7,0.8,2,3,-0.45,0.45,,,,,,,,,Hip Fire • Burst-fire,Aim Down Sights • Burst-fire,Bash,Ranged
+51,Agripinaa Mk IX Vigilant Autogun,Skitarii,13,Burst-fire,Precise,,,,,,,,,,,0.7,0.8,2,3,-0.45,0.45,,,,,,,,,Hip Fire • Burst-fire,Aim Down Sights • Burst-fire,Bash,Ranged
+52,Agripinaa Mk VII Combat Shotgun,Zealot,3,Precise,High Damage,,,,,,,,,,,0.75,0.85,3,4,-0.2,0.8,,,,,,,,,Hip Fire • Shotgun,Aim Down Sights • Shotgun,Special Ammo,Ranged
+53,Agripinaa Mk VII Combat Shotgun,Veteran,8,Precise,High Damage,,,,,,,,,,,0.75,0.85,3,4,-0.2,0.8,,,,,,,,,Hip Fire • Shotgun,Aim Down Sights • Shotgun,Special Ammo,Ranged
+54,Agripinaa Mk VII Combat Shotgun,Psyker,11,Precise,High Damage,,,,,,,,,,,0.75,0.85,3,4,-0.2,0.8,,,,,,,,,Hip Fire • Shotgun,Aim Down Sights • Shotgun,Special Ammo,Ranged
+55,Agripinaa Mk VII Combat Shotgun,Arbites,8,Precise,High Damage,,,,,,,,,,,0.75,0.85,3,4,-0.2,0.8,,,,,,,,,Hip Fire • Shotgun,Aim Down Sights • Shotgun,Special Ammo,Ranged
+56,Agripinaa Mk VII Combat Shotgun,Hive Scum,12,Precise,High Damage,,,,,,,,,,,0.75,0.85,3,4,-0.2,0.8,,,,,,,,,Hip Fire • Shotgun,Aim Down Sights • Shotgun,Special Ammo,Ranged
+57,Agripinaa Mk VIII Braced Autogun,Zealot,2,Rapid Fire,Precise,,,,,,,,,,,0.8,0.9,,,-0.45,0.45,,,,,,,,,Hip Fire • Fully automatic,Braced • Fully automatic,Bash,Ranged
+58,Agripinaa Mk VIII Braced Autogun,Veteran,7,Rapid Fire,Precise,,,,,,,,,,,0.8,0.9,,,-0.45,0.45,,,,,,,,,Hip Fire • Fully automatic,Braced • Fully automatic,Bash,Ranged
+59,Agripinaa Mk VIII Braced Autogun,Psyker,5,Rapid Fire,Precise,,,,,,,,,,,0.8,0.9,,,-0.45,0.45,,,,,,,,,Hip Fire • Fully automatic,Braced • Fully automatic,Bash,Ranged
+60,Agripinaa Mk VIII Braced Autogun,Arbites,7,Rapid Fire,Precise,,,,,,,,,,,0.8,0.9,,,-0.45,0.45,,,,,,,,,Hip Fire • Fully automatic,Braced • Fully automatic,Bash,Ranged
+61,Agripinaa Mk VIII Braced Autogun,Hive Scum,5,Rapid Fire,Precise,,,,,,,,,,,0.8,0.9,,,-0.45,0.45,,,,,,,,,Hip Fire • Fully automatic,Braced • Fully automatic,Bash,Ranged
+62,Agripinaa Mk VIII Braced Autogun,Skitarii,8,Rapid Fire,Precise,,,,,,,,,,,0.8,0.9,,,-0.45,0.45,,,,,,,,,Hip Fire • Fully automatic,Braced • Fully automatic,Bash,Ranged
+63,Agripinaa Mk XIV Quickdraw Stub Revolver,Zealot,7,High Damage,Precise,,,,,,,,,,,0.89,0.96,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Semi-automatic,Braced • Semi-automatic,Bash,Ranged
+64,Agripinaa Mk XIV Quickdraw Stub Revolver,Psyker,7,High Damage,Precise,,,,,,,,,,,0.89,0.96,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Semi-automatic,Braced • Semi-automatic,Bash,Ranged
+65,Agripinaa Mk XIV Quickdraw Stub Revolver,Veteran,2,High Damage,Precise,,,,,,,,,,,0.89,0.96,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Semi-automatic,Braced • Semi-automatic,Bash,Ranged
+66,Agripinaa Mk XIV Quickdraw Stub Revolver,Arbites,2,High Damage,Precise,,,,,,,,,,,0.89,0.96,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Semi-automatic,Braced • Semi-automatic,Bash,Ranged
+67,Agripinaa Mk XIV Quickdraw Stub Revolver,Hive Scum,4,High Damage,Precise,,,,,,,,,,,0.89,0.96,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Semi-automatic,Braced • Semi-automatic,Bash,Ranged
+68,Agripinaa Mk XIV Quickdraw Stub Revolver,Skitarii,16,High Damage,Precise,,,,,,,,,,,0.89,0.96,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Semi-automatic,Braced • Semi-automatic,Bash,Ranged
+69,Antax Mk V Combat Axe,Zealot,1,Strikedown,Armour Piercing,175,245,187.5,262.5,,,,,,,0.95,1.05,3,5,-0.45,0.45,0.74,1.3,0.13,0.28,0.74,1.3,0.53,0.99,Strikedown,Strikedown,Special Melee Attack,Melee
+70,Antax Mk V Combat Axe,Veteran,1,Strikedown,Armour Piercing,175,245,187.5,262.5,,,,,,,0.95,1.05,3,5,-0.45,0.45,0.74,1.3,0.13,0.28,0.74,1.3,0.53,0.99,Strikedown,Strikedown,Special Melee Attack,Melee
+71,Antax Mk V Combat Axe,Psyker,1,Strikedown,Armour Piercing,175,245,187.5,262.5,,,,,,,0.95,1.05,3,5,-0.45,0.45,0.74,1.3,0.13,0.28,0.74,1.3,0.53,0.99,Strikedown,Strikedown,Special Melee Attack,Melee
+72,Antax Mk V Combat Axe,Arbites,1,Strikedown,Armour Piercing,175,245,187.5,262.5,,,,,,,0.95,1.05,3,5,-0.45,0.45,0.74,1.3,0.13,0.28,0.74,1.3,0.53,0.99,Strikedown,Strikedown,Special Melee Attack,Melee
+73,Antax Mk V Combat Axe,Hive Scum,4,Strikedown,Armour Piercing,175,245,187.5,262.5,,,,,,,0.95,1.05,3,5,-0.45,0.45,0.74,1.3,0.13,0.28,0.74,1.3,0.53,0.99,Strikedown,Strikedown,Special Melee Attack,Melee
+74,Aridin Mk I Power Falchion,Veteran,23,Cleaving Strike,Power Weapon,252.5,297.5,100,140,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,,,,,,,,,Vanguard,Strikedown,Warp Charged,Melee
+75,Aridin Mk I Power Falchion,Skitarii,18,Cleaving Strike,Power Weapon,252.5,297.5,100,140,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,,,,,,,,,Vanguard,Strikedown,Warp Charged,Melee
+76,Artemia Mk III Purgation Flamer,Zealot,8,Torrent,Close Combat,18,22,,,,,,,,,0.68,0.73,,,-0.56,0.16,,,,,,,,,Hip Fire • Semi-automatic,Braced • Fully automatic,Bash,Ranged
+77,Atrox Mk II Tactical Axe,Zealot,6,Flurry,Assassin,87.5,122.5,125,175,,,,,1,1.14,1,1.1,3,4,-0.2,0.8,0.74,1.3,0.27,0.54,0.74,1.3,0.2,0.41,Assassin,Strikedown,Special Melee Attack,Melee
+78,Atrox Mk II Tactical Axe,Veteran,6,Flurry,Assassin,87.5,122.5,125,175,,,,,1,1.14,1,1.1,3,4,-0.2,0.8,0.74,1.3,0.27,0.54,0.74,1.3,0.2,0.41,Assassin,Strikedown,Special Melee Attack,Melee
+79,Atrox Mk II Tactical Axe,Psyker,10,Flurry,Assassin,87.5,122.5,125,175,,,,,1,1.14,1,1.1,3,4,-0.2,0.8,0.74,1.3,0.27,0.54,0.74,1.3,0.2,0.41,Assassin,Strikedown,Special Melee Attack,Melee
+80,Atrox Mk II Tactical Axe,Arbites,9,Flurry,Assassin,87.5,122.5,125,175,,,,,1,1.14,1,1.1,3,4,-0.2,0.8,0.74,1.3,0.27,0.54,0.74,1.3,0.2,0.41,Assassin,Strikedown,Special Melee Attack,Melee
+81,Atrox Mk II Tactical Axe,Hive Scum,2,Flurry,Assassin,87.5,122.5,125,175,,,,,1,1.14,1,1.1,3,4,-0.2,0.8,0.74,1.3,0.27,0.54,0.74,1.3,0.2,0.41,Assassin,Strikedown,Special Melee Attack,Melee
+82,Atrox Mk IV Tactical Axe,Veteran,6,Flurry,Assassin,143.75,201.25,75,105,,,,,1,1.14,1,1.1,3,4,-0.2,0.8,0.74,1.3,0.34,0.68,0.58,1.05,0.27,0.54,Assassin,Strikedown,Special Melee Attack,Melee
+83,Blastoom Mk III Grenadier Gauntlet,Ogryn,4,Explosive,Multi Purpose,,,,,,,,,,,,,,,,,,,,,,,,,Light Attack,Heavy Attack,Explosive Punch,Ranged
+84,Borovian Mk III Delver's Pickaxe,Ogryn,14,Strikedown,High Damage,286.25,448.75,192.5,297.5,1.75,1.25,2.25,0.75,,,,,,,,,0.74,1.3,0.53,0.99,,,,,Strikedown,Strikedown,Pull,Melee
+85,Branx Mk CV Galvanic Rifle,Skitarii,1,Versatile,Precise,,,,,,,,,,,0.7,0.8,2,3,-0.45,0.45,,,,,,,,,Hip Fire • Semi-automatic,Aim Down Sights • Semi-automatic,Bash,Ranged
+86,Branx Mk IV Arc Rifle,Skitarii,7,High Damage,Arc,,,,,,,,,,,0.68,0.73,,,-0.56,0.16,,,,,,,,,Hip Fire • Fully automatic,Braced • Fully automatic,Bash,Ranged
+87,Atrox Mk IV Tactical Axe,Zealot,6,Flurry,Assassin,143.75,201.25,75,105,,,,,1,1.14,1,1.1,3,4,-0.2,0.8,0.74,1.3,0.34,0.68,0.58,1.05,0.27,0.54,Assassin,Strikedown,Special Melee Attack,Melee
+88,Atrox Mk IV Tactical Axe,Psyker,10,Flurry,Assassin,143.75,201.25,75,105,,,,,1,1.14,1,1.1,3,4,-0.2,0.8,0.74,1.3,0.34,0.68,0.58,1.05,0.27,0.54,Assassin,Strikedown,Special Melee Attack,Melee
+89,Atrox Mk IV Tactical Axe,Arbites,9,Flurry,Assassin,143.75,201.25,75,105,,,,,1,1.14,1,1.1,3,4,-0.2,0.8,0.74,1.3,0.34,0.68,0.58,1.05,0.27,0.54,Assassin,Strikedown,Special Melee Attack,Melee
+90,Atrox Mk IV Tactical Axe,Hive Scum,2,Flurry,Assassin,143.75,201.25,75,105,,,,,1,1.14,1,1.1,3,4,-0.2,0.8,0.74,1.3,0.34,0.68,0.58,1.05,0.27,0.54,Assassin,Strikedown,Special Melee Attack,Melee
+91,Atrox Mk VII Tactical Axe,Zealot,6,Flurry,Assassin,87.5,122.5,125,175,,,,,1,1.14,1,1.1,3,4,-0.2,0.8,0.74,1.3,0.27,0.54,0.74,1.3,0.2,0.41,Assassin,Strikedown,Special Melee Attack,Melee
+92,Atrox Mk VII Tactical Axe,Veteran,6,Flurry,Assassin,87.5,122.5,125,175,,,,,1,1.14,1,1.1,3,4,-0.2,0.8,0.74,1.3,0.27,0.54,0.74,1.3,0.2,0.41,Assassin,Strikedown,Special Melee Attack,Melee
+93,Atrox Mk VII Tactical Axe,Psyker,10,Flurry,Assassin,87.5,122.5,125,175,,,,,1,1.14,1,1.1,3,4,-0.2,0.8,0.74,1.3,0.27,0.54,0.74,1.3,0.2,0.41,Assassin,Strikedown,Special Melee Attack,Melee
+94,Atrox Mk VII Tactical Axe,Arbites,9,Flurry,Assassin,87.5,122.5,125,175,,,,,1,1.14,1,1.1,3,4,-0.2,0.8,0.74,1.3,0.27,0.54,0.74,1.3,0.2,0.41,Assassin,Strikedown,Special Melee Attack,Melee
+95,Atrox Mk VII Tactical Axe,Hive Scum,2,Flurry,Assassin,87.5,122.5,125,175,,,,,1,1.14,1,1.1,3,4,-0.2,0.8,0.74,1.3,0.27,0.54,0.74,1.3,0.2,0.41,Assassin,Strikedown,Special Melee Attack,Melee
+96,Branx Mk Ia Delver's Pickaxe,Ogryn,14,Strikedown,High Damage,450,750,232.5,377.5,1.93,1.38,3,1,,,,,,,,,0.74,1.3,0.66,1.18,0.66,1.18,0.53,0.99,Strikedown,Strikedown,Special Melee Attack,Melee
+97,Branx Mk III Arbites Shock Maul,Arbites,1,Crowd Control,Shock,257.5,372.5,201.25,263.75,,,,,1,1.14,0.89,0.96,2,3,-0.45,0.45,0.74,1.07,0.53,0.97,0.74,1.07,0.42,0.78,Strikedown,Strikedown,Special Melee Attack,Melee
+98,Branx Mk III Arc Maul,Skitarii,1,Crowd Control,Arc,237.5,332.5,111.25,153.75,,,,,,,0.95,1.05,3,5,-0.45,0.45,0.66,1.18,0.5,0.93,0.58,1.05,0.2,0.41,Relentless,Strikedown,Activate,Melee
+99,Branx Mk VI Mechanicus Power Sword,Skitarii,6,Power Channeling,Enhanced Actuators,270,330,168.75,236.25,,,,,1,1.14,0.9,1,2,4,-0.45,0.45,,,,,,,,,Strikedown,Strikedown,Special Melee Attack,Melee
+100,"Catachan Mk I ""Devil's Claw"" Sword",Hive Scum,3,Flurry,Crowd Control,70,90,112.5,157.5,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,,,,,,,,,Vanguard,Vanguard,Parry,Melee
+101,"Catachan Mk I ""Devil's Claw"" Sword",Skitarii,4,Flurry,Crowd Control,70,90,112.5,157.5,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,,,,,,,,,Vanguard,Vanguard,Parry,Melee
+102,"Catachan Mk IV ""Devil's Claw"" Sword",Zealot,1,Flurry,Crowd Control,225,315,70,90,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,,,,,,,,,Vanguard,Strikedown,Parry,Melee
+103,Branx Mk VI Shock Maul and Suppression Shield,Arbites,5,Crowd Control,Shock,191.25,273.75,191.25,253.75,2.25,1.75,1.5,0.5,,,,,,,,,0.66,0.96,0.42,0.74,0.74,1.07,0.42,0.74,Strikedown,Relentless,Activate,Melee
+104,Branx Mk XI Paired Transonic Blades,Skitarii,14,Versatile,Cleaving Strike,156.25,218.75,87.5,122.5,,,,,1,1.15,,,,,,,0.53,0.99,0.13,0.28,0.53,0.99,0.13,0.28,Vanguard,Vanguard,Switch Mode,Melee
+105,Branx Mk XI Phosphor Blast Pistol,Skitarii,10,High Damage,Precise,,,,,,,,,,,0.89,0.96,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Semi-automatic,Aim Down Sights • Semi-automatic,Bash,Ranged
+106,Branx Mk XI Shock Maul and Suppression Shield,Arbites,5,Crowd Control,Shock,163.75,251.25,130,170,2.25,1.75,1.5,0.5,,,,,,,,,0.66,0.96,0.42,0.74,0.66,0.96,0.42,0.74,Relentless,Relentless,Activate,Melee
+107,Branx MKII Needle Pistol,Hive Scum,18,Mobile,Chem,,,,,,,,,,,0.89,0.96,2,3,0.53,0.98,,,,,,,,,Hip Fire • Semi-automatic,Aim Down Sights • Semi-automatic,Switch Mode,Ranged
+108,Branx MkIII Dual Autopistols,Hive Scum,1,Mobile,Torrent,,,,,,,,,,,0.89,0.96,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Fully automatic,Braced • Fully automatic,Bash,Ranged
+109,Branx MkVI Needle Pistol,Hive Scum,18,Mobile,Chem,,,,,,,,,,,0.89,0.96,2,3,0.53,0.98,,,,,,,,,Hip Fire • Semi-automatic,Aim Down Sights • Semi-automatic,Switch Mode,Ranged
+110,Branx MkVIII Dual Stub Pistols,Hive Scum,10,High Damage,Precise,,,,,,,,,,,0.89,0.96,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Semi-automatic,Braced • Semi-automatic,Trickster,Ranged
+111,Brute-Brainer Mk III Latrine Shovel,Ogryn,2,Crowd Control,Versatile,237.5,332.5,87.5,122.5,1.75,1.25,2.25,0.75,,,,,,,,,0.74,1.3,0.74,1.3,0.53,0.99,0.03,0.07,Relentless,Strikedown,Punch,Melee
+112,Brute-Brainer Mk V Latrine Shovel,Ogryn,2,Crowd Control,Strikedown,125,175,87.5,122.5,1.75,1.25,2.25,0.75,,,,,,,,,0.74,1.3,0.34,0.68,0.53,0.99,0.03,0.07,Strikedown,Relentless,Switch Mode,Melee
+113,Brute-Brainer Mk XIX Latrine Shovel,Ogryn,2,Crowd Control,Strikedown,237.5,332.5,130,190,1.75,1.25,2.25,0.75,,,,,,,,,0.74,1.3,0.74,1.3,,,,,Relentless,Strikedown,Switch Mode,Melee
+114,Bull Butcher Mk III Cleaver,Ogryn,8,Flurry,Cleaving Strike,260,360,125,175,,,,,,,0.88,1.03,2,3,-0.19,0.94,0.58,1.05,0.34,0.68,0.46,0.87,0.03,0.07,Strikedown,Vanguard,Punch,Melee
+115,Cadia Mk IV Assault Chainsword,Psyker,14,Versatile,Ravage,168.75,236.25,162.5,227.5,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,0.53,0.99,0.27,0.54,,,,,Strikedown,Vanguard,Warp Charged,Melee
+116,Cadia Mk IV Assault Chainsword,Zealot,9,Versatile,Ravage,168.75,236.25,162.5,227.5,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,0.53,0.99,0.27,0.54,,,,,Strikedown,Vanguard,Warp Charged,Melee
+117,Cadia Mk IV Assault Chainsword,Veteran,18,Versatile,Ravage,168.75,236.25,162.5,227.5,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,0.53,0.99,0.27,0.54,,,,,Strikedown,Vanguard,Warp Charged,Melee
+118,Cadia Mk IV Assault Chainsword,Arbites,11,Versatile,Ravage,168.75,236.25,162.5,227.5,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,0.53,0.99,0.27,0.54,,,,,Strikedown,Vanguard,Warp Charged,Melee
+119,"Catachan Mk I ""Devil's Claw"" Sword",Psyker,1,Flurry,Crowd Control,70,90,112.5,157.5,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,,,,,,,,,Vanguard,Vanguard,Parry,Melee
+120,"Catachan Mk I ""Devil's Claw"" Sword",Veteran,4,Flurry,Crowd Control,70,90,112.5,157.5,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,,,,,,,,,Vanguard,Vanguard,Parry,Melee
+121,"Catachan Mk I ""Devil's Claw"" Sword",Zealot,1,Flurry,Crowd Control,70,90,112.5,157.5,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,,,,,,,,,Vanguard,Vanguard,Parry,Melee
+122,Cadia Mk IV Assault Chainsword,Hive Scum,12,Versatile,Ravage,168.75,236.25,162.5,227.5,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,0.53,0.99,0.27,0.54,,,,,Strikedown,Vanguard,Warp Charged,Melee
+123,Cadia Mk IV Assault Chainsword,Skitarii,12,Versatile,Ravage,168.75,236.25,162.5,227.5,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,0.53,0.99,0.27,0.54,,,,,Strikedown,Vanguard,Warp Charged,Melee
+124,Cadia Mk XIIIg Assault Chainsword,Zealot,9,Versatile,Ravage,162.5,227.5,212.5,297.5,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,0.53,0.99,0.34,0.68,0.58,1.05,,,Vanguard,Strikedown,Warp Charged,Melee
+125,Cadia Mk XIIIg Assault Chainsword,Psyker,14,Versatile,Ravage,162.5,227.5,212.5,297.5,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,0.53,0.99,0.34,0.68,0.58,1.05,,,Vanguard,Strikedown,Warp Charged,Melee
+126,Cadia Mk XIIIg Assault Chainsword,Veteran,18,Versatile,Ravage,162.5,227.5,212.5,297.5,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,0.53,0.99,0.34,0.68,0.58,1.05,,,Vanguard,Strikedown,Warp Charged,Melee
+127,Cadia Mk XIIIg Assault Chainsword,Arbites,11,Versatile,Ravage,162.5,227.5,212.5,297.5,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,0.53,0.99,0.34,0.68,0.58,1.05,,,Vanguard,Strikedown,Warp Charged,Melee
+128,Cadia Mk XIIIg Assault Chainsword,Hive Scum,12,Versatile,Ravage,162.5,227.5,212.5,297.5,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,0.53,0.99,0.34,0.68,0.58,1.05,,,Vanguard,Strikedown,Warp Charged,Melee
+129,Cadia Mk XIIIg Assault Chainsword,Skitarii,12,Versatile,Ravage,162.5,227.5,212.5,297.5,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,0.53,0.99,0.34,0.68,0.58,1.05,,,Vanguard,Strikedown,Warp Charged,Melee
+130,Catachan Mk III Combat Blade,Zealot,1,Swiftstrike,Assassin,100,140,37.5,52.5,,,,,1,1.14,1.05,1.15,3,5,0.53,0.98,0.53,0.99,0.34,0.68,0.34,0.68,0.03,0.07,Assassin,Strikedown,Punch,Melee
+131,Catachan Mk III Combat Blade,Psyker,3,Swiftstrike,Assassin,100,140,37.5,52.5,,,,,1,1.14,1.05,1.15,3,5,0.53,0.98,0.53,0.99,0.34,0.68,0.34,0.68,0.03,0.07,Assassin,Strikedown,Punch,Melee
+132,Catachan Mk III Combat Blade,Veteran,2,Swiftstrike,Assassin,100,140,37.5,52.5,,,,,1,1.14,1.05,1.15,3,5,0.53,0.98,0.53,0.99,0.34,0.68,0.34,0.68,0.03,0.07,Assassin,Strikedown,Punch,Melee
+133,Catachan Mk III Combat Blade,Hive Scum,16,Swiftstrike,Assassin,100,140,37.5,52.5,,,,,1,1.14,1.05,1.15,3,5,0.53,0.98,0.53,0.99,0.34,0.68,0.34,0.68,0.03,0.07,Assassin,Strikedown,Punch,Melee
+134,Catachan Mk III Combat Blade,Skitarii,2,Swiftstrike,Assassin,100,140,37.5,52.5,,,,,1,1.14,1.05,1.15,3,5,0.53,0.98,0.53,0.99,0.34,0.68,0.34,0.68,0.03,0.07,Assassin,Strikedown,Punch,Melee
+135,"Catachan Mk IV ""Devil's Claw"" Sword",Veteran,4,Flurry,Crowd Control,225,315,70,90,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,,,,,,,,,Vanguard,Strikedown,Parry,Melee
+136,"Catachan Mk IV ""Devil's Claw"" Sword",Psyker,1,Flurry,Crowd Control,225,315,70,90,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,,,,,,,,,Vanguard,Strikedown,Parry,Melee
+137,"Catachan Mk IV ""Devil's Claw"" Sword",Hive Scum,3,Flurry,Crowd Control,225,315,70,90,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,,,,,,,,,Vanguard,Strikedown,Parry,Melee
+138,"Catachan Mk IV ""Devil's Claw"" Sword",Skitarii,4,Flurry,Crowd Control,225,315,70,90,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,,,,,,,,,Vanguard,Strikedown,Parry,Melee
+139,Catachan Mk VI Combat Blade,Zealot,1,Swiftstrike,Assassin,100,140,37.5,52.5,,,,,1,1.14,1.05,1.15,3,5,0.53,0.98,0.53,0.99,0.34,0.68,0.34,0.68,0.03,0.07,Assassin,Vanguard,Punch,Melee
+140,Catachan Mk VI Combat Blade,Psyker,3,Swiftstrike,Assassin,100,140,37.5,52.5,,,,,1,1.14,1.05,1.15,3,5,0.53,0.98,0.53,0.99,0.34,0.68,0.34,0.68,0.03,0.07,Assassin,Vanguard,Punch,Melee
+141,Catachan Mk VI Combat Blade,Veteran,2,Swiftstrike,Assassin,100,140,37.5,52.5,,,,,1,1.14,1.05,1.15,3,5,0.53,0.98,0.53,0.99,0.34,0.68,0.34,0.68,0.03,0.07,Assassin,Vanguard,Punch,Melee
+142,Catachan Mk VI Combat Blade,Hive Scum,16,Swiftstrike,Assassin,100,140,37.5,52.5,,,,,1,1.14,1.05,1.15,3,5,0.53,0.98,0.53,0.99,0.34,0.68,0.34,0.68,0.03,0.07,Assassin,Vanguard,Punch,Melee
+143,Catachan Mk VI Combat Blade,Skitarii,2,Swiftstrike,Assassin,100,140,37.5,52.5,,,,,1,1.14,1.05,1.15,3,5,0.53,0.98,0.53,0.99,0.34,0.68,0.34,0.68,0.03,0.07,Assassin,Vanguard,Punch,Melee
+144,"Catachan Mk VII ""Devil's Claw"" Sword",Zealot,1,Flurry,Crowd Control,112.5,157.5,70,90,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,,,,,,,,,Vanguard,Vanguard,Parry,Melee
+145,"Catachan Mk VII ""Devil's Claw"" Sword",Veteran,4,Flurry,Crowd Control,112.5,157.5,70,90,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,,,,,,,,,Vanguard,Vanguard,Parry,Melee
+146,"Catachan Mk VII ""Devil's Claw"" Sword",Psyker,1,Flurry,Crowd Control,112.5,157.5,70,90,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,,,,,,,,,Vanguard,Vanguard,Parry,Melee
+147,"Catachan Mk VII ""Devil's Claw"" Sword",Hive Scum,3,Flurry,Crowd Control,112.5,157.5,70,90,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,,,,,,,,,Vanguard,Vanguard,Parry,Melee
+148,"Catachan Mk VII ""Devil's Claw"" Sword",Skitarii,4,Flurry,Crowd Control,112.5,157.5,70,90,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,,,,,,,,,Vanguard,Vanguard,Parry,Melee
+149,Chirurgeon's Mk IV Bone Saw,Hive Scum,14,Versatile,Chem,206.25,288.75,62.5,87.5,,,,,1,1.13,0.95,1.05,3,5,-0.45,0.45,,,,,,,,,Vanguard,Strikedown,Switch Mode,Melee
+150,Columnus Mk III Vigilant Autogun,Psyker,4,Burst-fire,Precise,,,,,,,,,,,0.7,0.8,2,3,-0.45,0.45,,,,,,,,,Hip Fire • Burst-fire,Aim Down Sights • Burst-fire,Bash,Ranged
+151,Columnus Mk III Vigilant Autogun,Veteran,3,Burst-fire,Precise,,,,,,,,,,,0.7,0.8,2,3,-0.45,0.45,,,,,,,,,Hip Fire • Burst-fire,Aim Down Sights • Burst-fire,Bash,Ranged
+152,Columnus Mk III Vigilant Autogun,Zealot,5,Burst-fire,Precise,,,,,,,,,,,0.7,0.8,2,3,-0.45,0.45,,,,,,,,,Hip Fire • Burst-fire,Aim Down Sights • Burst-fire,Bash,Ranged
+153,Columnus Mk III Vigilant Autogun,Arbites,3,Burst-fire,Precise,,,,,,,,,,,0.7,0.8,2,3,-0.45,0.45,,,,,,,,,Hip Fire • Burst-fire,Aim Down Sights • Burst-fire,Bash,Ranged
+154,Columnus Mk III Vigilant Autogun,Hive Scum,14,Burst-fire,Precise,,,,,,,,,,,0.7,0.8,2,3,-0.45,0.45,,,,,,,,,Hip Fire • Burst-fire,Aim Down Sights • Burst-fire,Bash,Ranged
+155,Columnus Mk III Vigilant Autogun,Skitarii,13,Burst-fire,Precise,,,,,,,,,,,0.7,0.8,2,3,-0.45,0.45,,,,,,,,,Hip Fire • Burst-fire,Aim Down Sights • Burst-fire,Bash,Ranged
+156,Columnus Mk VIII Infantry Autogun,Veteran,1,Rapid Fire,Precise,,,,,,,,,,,0.7,0.8,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Fully automatic,Aim Down Sights • Fully automatic,Torch,Ranged
+157,Columnus Mk VIII Infantry Autogun,Zealot,14,Rapid Fire,Precise,,,,,,,,,,,0.7,0.8,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Fully automatic,Aim Down Sights • Fully automatic,Torch,Ranged
+158,Columnus Mk VIII Infantry Autogun,Psyker,1,Rapid Fire,Precise,,,,,,,,,,,0.7,0.8,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Fully automatic,Aim Down Sights • Fully automatic,Torch,Ranged
+159,Columnus Mk VIII Infantry Autogun,Arbites,1,Rapid Fire,Precise,,,,,,,,,,,0.7,0.8,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Fully automatic,Aim Down Sights • Fully automatic,Torch,Ranged
+160,Columnus Mk VIII Infantry Autogun,Hive Scum,7,Rapid Fire,Precise,,,,,,,,,,,0.7,0.8,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Fully automatic,Aim Down Sights • Fully automatic,Torch,Ranged
+161,Columnus Mk VIII Infantry Autogun,Skitarii,5,Rapid Fire,Precise,,,,,,,,,,,0.7,0.8,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Fully automatic,Aim Down Sights • Fully automatic,Torch,Ranged
+162,Covenant Mk VI Blaze Force Greatsword,Psyker,9,Crowd Control,Force Weapon,250,350,96.25,138.75,1.13,0.88,3,1,1,1.14,,,,,,,,,,,,,,,Vanguard,Strikedown,Warpshock Slash,Melee
+163,Covenant Mk VIII Blaze Force Greatsword,Psyker,9,Crowd Control,Force Weapon,156.25,218.75,96.25,138.75,1.13,0.88,3,1,1,1.14,,,,,,,,,,,,,,,Vanguard,Vanguard,Warpshock Slash,Melee
+164,Crucis Mk II Thunder Hammer,Zealot,15,Crowd Control,Obliterating,222.5,307.5,268.75,376.25,1.88,1.63,3,1,,,,,,,,,0.59,0.9,0.37,0.6,0.59,0.9,0.31,0.5,Strikedown,Relentless,Warp Charged,Melee
+165,Crucis Mk XI Double-Barrelled Shotgun,Zealot,12,Close Combat,High Damage,,,,,,,,,,,0.75,0.85,3,4,-0.2,0.8,,,,,,,,,Hip Fire • Shotgun,Braced • Shotgun,Bash,Ranged
+166,Crucis Mk XI Double-Barrelled Shotgun,Psyker,18,Close Combat,High Damage,,,,,,,,,,,0.75,0.85,3,4,-0.2,0.8,,,,,,,,,Hip Fire • Shotgun,Braced • Shotgun,Bash,Ranged
+167,Crucis Mk XI Double-Barrelled Shotgun,Veteran,12,Close Combat,High Damage,,,,,,,,,,,0.75,0.85,3,4,-0.2,0.8,,,,,,,,,Hip Fire • Shotgun,Braced • Shotgun,Bash,Ranged
+168,Crucis Mk XI Double-Barrelled Shotgun,Arbites,12,Close Combat,High Damage,,,,,,,,,,,0.75,0.85,3,4,-0.2,0.8,,,,,,,,,Hip Fire • Shotgun,Braced • Shotgun,Bash,Ranged
+169,Crucis Mk XI Double-Barrelled Shotgun,Hive Scum,2,Close Combat,High Damage,,,,,,,,,,,0.75,0.85,3,4,-0.2,0.8,,,,,,,,,Hip Fire • Shotgun,Braced • Shotgun,Bash,Ranged
+170,Deimos Mk IV Blaze Force Sword,Psyker,2,Flurry,Force Weapon,125,175,125,175,,,,,1,1.14,0.98,1.13,3,5,-0.45,0.45,,,,,,,,,Assassin,Strikedown,Warp Charged,Melee
+171,Enginseer's Mk VI Crowbar,Hive Scum,6,Strikedown,Charged Swings,218.75,306.25,112.5,157.5,1.13,0.88,3,1,,,0.95,1.05,3,5,-0.45,0.45,0.66,1.18,0.27,0.54,0.66,1.18,0.16,0.35,Strikedown,Strikedown,Switch Mode,Melee
+172,Equinox Mk III Voidblast Force Staff,Psyker,5,Force Weapon,Charged Attack,,,,,,,,,,,,,,,,,,,,,,,,,Staff-Bound Blaze Bolt • Projectile,Staff-Bound Pyroblast,Strike,Ranged
+173,Equinox Mk IV Voidstrike Force Staff,Psyker,12,Force Weapon,Charged Attack,,,,,,,,,,,,,,,,,,,,,,,,,Staff-Bound Blaze Bolt • Projectile,Staff-Bound Blaze Bolt • Projectile,Strike,Ranged
+174,Exaction Mk III Exterminator Shotgun,Arbites,1,Close Combat,High Damage,,,,,,,,,,,0.75,0.85,3,4,-0.45,0.45,,,,,,,,,Hip Fire • Shotgun,Aim Down Sights • Shotgun,Special Ammo,Ranged
+175,Exaction Mk VIII Exterminator Shotgun,Arbites,1,Close Combat,High Damage,,,,,,,,,,,0.75,0.85,3,4,-0.45,0.45,,,,,,,,,Hip Fire • Shotgun,Aim Down Sights • Shotgun,Special Ammo,Ranged
+176,Foe-Rend Mk II Ripper Gun,Ogryn,2,Spreadshot,Torrent,,,,,,,,,,,,,,,,,,,,,,,,,Hip Fire • Burst-fire,Braced • Fully automatic,Bayonet Attack,Ranged
+177,Foe-Rend Mk V Ripper Gun,Ogryn,2,Spreadshot,Torrent,,,,,,,,,,,,,,,,,,,,,,,,,Hip Fire • Burst-fire,Braced • Fully automatic,Bayonet Attack,Ranged
+178,Foe-Rend Mk VI Ripper Gun,Ogryn,2,Spreadshot,Torrent,,,,,,,,,,,,,,,,,,,,,,,,,Hip Fire • Burst-fire,Braced • Burst-fire,Bayonet Attack,Ranged
+179,Godwyn-Branx Mk IV Bolt Pistol,Zealot,10,High Damage,Mobile,,,,,,,,,,,0.89,0.96,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Semi-automatic,Aim Down Sights • Semi-automatic,Bash,Ranged
+180,Godwyn-Branx Mk IV Bolt Pistol,Psyker,7,High Damage,Mobile,,,,,,,,,,,0.89,0.96,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Semi-automatic,Aim Down Sights • Semi-automatic,Bash,Ranged
+181,Godwyn-Branx Mk IV Bolt Pistol,Veteran,9,High Damage,Mobile,,,,,,,,,,,0.89,0.96,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Semi-automatic,Aim Down Sights • Semi-automatic,Bash,Ranged
+182,Godwyn-Branx Mk IV Bolt Pistol,Arbites,9,High Damage,Mobile,,,,,,,,,,,0.89,0.96,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Semi-automatic,Aim Down Sights • Semi-automatic,Bash,Ranged
+183,Godwyn-Branx Mk IV Bolt Pistol,Hive Scum,20,High Damage,Mobile,,,,,,,,,,,0.89,0.96,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Semi-automatic,Aim Down Sights • Semi-automatic,Bash,Ranged
+184,Godwyn-Branx Mk VI Bolt Pistol,Zealot,10,High Damage,Mobile,,,,,,,,,,,0.89,0.96,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Semi-automatic,Aim Down Sights • Semi-automatic,Bash,Ranged
+185,Godwyn-Branx Mk VI Bolt Pistol,Veteran,9,High Damage,Mobile,,,,,,,,,,,0.89,0.96,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Semi-automatic,Aim Down Sights • Semi-automatic,Bash,Ranged
+186,Godwyn-Branx Mk VI Bolt Pistol,Psyker,7,High Damage,Mobile,,,,,,,,,,,0.89,0.96,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Semi-automatic,Aim Down Sights • Semi-automatic,Bash,Ranged
+187,Godwyn-Branx Mk VI Bolt Pistol,Arbites,9,High Damage,Mobile,,,,,,,,,,,0.89,0.96,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Semi-automatic,Aim Down Sights • Semi-automatic,Bash,Ranged
+188,Godwyn-Branx Mk VI Bolt Pistol,Hive Scum,20,High Damage,Mobile,,,,,,,,,,,0.89,0.96,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Semi-automatic,Aim Down Sights • Semi-automatic,Bash,Ranged
+189,Gorgonum Mk IIIa Heavy Stubber,Ogryn,16,Precise,High Damage,302.5,467.5,,,,,,,,,,,,,,,,,,,,,,,Hip Fire • Fully automatic,Braced • Semi-automatic,Torch,Ranged
+190,Gorgonum Mk IV Twin-Linked Heavy Stubber,Ogryn,6,High Damage,Torrent,,,,,,,,,,,,,,,,,,,,,,,,,Hip Fire • Fully automatic,Braced • Fully automatic,Bash,Ranged
+191,Graia Mk IV Braced Autogun,Veteran,7,Torrent,High Capacity,,,,,,,,,,,0.8,0.9,,,-0.45,0.45,,,,,,,,,Hip Fire • Fully automatic,Braced • Fully automatic,Bash,Ranged
+192,Graia Mk IV Braced Autogun,Zealot,2,Torrent,High Capacity,,,,,,,,,,,0.8,0.9,,,-0.45,0.45,,,,,,,,,Hip Fire • Fully automatic,Braced • Fully automatic,Bash,Ranged
+193,Graia Mk IV Braced Autogun,Psyker,5,Torrent,High Capacity,,,,,,,,,,,0.8,0.9,,,-0.45,0.45,,,,,,,,,Hip Fire • Fully automatic,Braced • Fully automatic,Bash,Ranged
+194,Graia Mk IV Braced Autogun,Arbites,7,Torrent,High Capacity,,,,,,,,,,,0.8,0.9,,,-0.45,0.45,,,,,,,,,Hip Fire • Fully automatic,Braced • Fully automatic,Bash,Ranged
+195,Graia Mk IV Braced Autogun,Hive Scum,5,Torrent,High Capacity,,,,,,,,,,,0.8,0.9,,,-0.45,0.45,,,,,,,,,Hip Fire • Fully automatic,Braced • Fully automatic,Bash,Ranged
+196,Graia Mk IV Braced Autogun,Skitarii,8,Torrent,High Capacity,,,,,,,,,,,0.8,0.9,,,-0.45,0.45,,,,,,,,,Hip Fire • Fully automatic,Braced • Fully automatic,Bash,Ranged
+197,Graia Mk VII Vigilant Autogun,Psyker,4,Versatile,Precise,,,,,,,,,,,0.7,0.8,2,3,-0.45,0.45,,,,,,,,,Hip Fire • Semi-automatic,Aim Down Sights • Semi-automatic,Bash,Ranged
+198,Graia Mk VII Vigilant Autogun,Veteran,3,Versatile,Precise,,,,,,,,,,,0.7,0.8,2,3,-0.45,0.45,,,,,,,,,Hip Fire • Semi-automatic,Aim Down Sights • Semi-automatic,Bash,Ranged
+199,Graia Mk VII Vigilant Autogun,Zealot,5,Versatile,Precise,,,,,,,,,,,0.7,0.8,2,3,-0.45,0.45,,,,,,,,,Hip Fire • Semi-automatic,Aim Down Sights • Semi-automatic,Bash,Ranged
+200,Graia Mk VII Vigilant Autogun,Arbites,3,Versatile,Precise,,,,,,,,,,,0.7,0.8,2,3,-0.45,0.45,,,,,,,,,Hip Fire • Semi-automatic,Aim Down Sights • Semi-automatic,Bash,Ranged
+201,Graia Mk VII Vigilant Autogun,Hive Scum,14,Versatile,Precise,,,,,,,,,,,0.7,0.8,2,3,-0.45,0.45,,,,,,,,,Hip Fire • Semi-automatic,Aim Down Sights • Semi-automatic,Bash,Ranged
+202,Graia Mk VII Vigilant Autogun,Skitarii,13,Versatile,Precise,,,,,,,,,,,0.7,0.8,2,3,-0.45,0.45,,,,,,,,,Hip Fire • Semi-automatic,Aim Down Sights • Semi-automatic,Bash,Ranged
+203,Gromm Mk I & Mk V Battle Maul & Slab Shield,Ogryn,10,Crowd Control,Defensive,225,315,100,140,3,2,1.5,0.5,,,,,,,,,0.66,1.18,0.53,0.99,0.66,1.18,0.53,0.99,Relentless,Relentless,Defensive Stance,Melee
+204,Illisi Mk V Blaze Force Sword,Psyker,2,Flurry,Force Weapon,65,95,125,175,,,,,1,1.14,0.98,1.13,3,5,-0.45,0.45,,,,,,,,,Assassin,Vanguard,Warp Charged,Melee
+205,Ius Mk IV Shredder Autopistol,Psyker,11,Mobile,Torrent,,,,,,,,,,,0.89,0.96,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Fully automatic,Braced • Fully automatic,Torch,Ranged
+206,Ius Mk IV Shredder Autopistol,Zealot,1,Mobile,Torrent,,,,,,,,,,,0.89,0.96,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Fully automatic,Braced • Fully automatic,Torch,Ranged
+207,Ius Mk IV Shredder Autopistol,Veteran,4,Mobile,Torrent,,,,,,,,,,,0.89,0.96,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Fully automatic,Braced • Fully automatic,Torch,Ranged
+208,Ius Mk IV Shredder Autopistol,Arbites,4,Mobile,Torrent,,,,,,,,,,,0.89,0.96,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Fully automatic,Braced • Fully automatic,Torch,Ranged
+209,Improvised Mk I Shivs,Hive Scum,1,Swiftstrike,Assassin,131.25,183.75,73.75,91.25,,,,,1,1.14,1.05,1.15,3,5,0.43,0.88,0.53,0.99,0.34,0.68,0.34,0.68,0.03,0.07,Assassin,Strikedown,Throw,Melee
+210,Improvised Mk III Shivs,Hive Scum,1,Swiftstrike,Assassin,113.75,151.25,60,80,,,,,1,1.14,1.05,1.15,3,5,0.43,0.88,0.5,0.93,0.2,0.41,0.34,0.68,0.03,0.07,Assassin,Vanguard,Throw,Melee
+211,Indignatus Mk IVe Crusher,Zealot,4,Power Weapon,Unstoppable,100,140,281.25,393.75,1.88,1.63,3,1,,,,,,,,,0.67,1,0.31,0.5,0.67,1,0.37,0.6,Relentless,Strikedown,Warp Charged,Melee
+212,Indignatus Mk IVe Crusher,Arbites,7,Power Weapon,Unstoppable,100,140,281.25,393.75,1.88,1.63,3,1,,,,,,,,,0.67,1,0.31,0.5,0.67,1,0.37,0.6,Relentless,Strikedown,Warp Charged,Melee
+213,Ironhelm Mk IV Thunder Hammer,Zealot,15,Crowd Control,Obliterating,156.25,218.75,268.75,376.25,1.88,1.63,3,1,,,,,,,,,0.59,0.9,0.14,0.25,0.59,0.9,0.31,0.5,Strikedown,Relentless,Warp Charged,Melee
+214,Ius Mk IV Shredder Autopistol,Hive Scum,16,Mobile,Torrent,,,,,,,,,,,0.89,0.96,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Fully automatic,Braced • Fully automatic,Torch,Ranged
+215,Ius Mk IV Shredder Autopistol,Skitarii,9,Mobile,Torrent,,,,,,,,,,,0.89,0.96,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Fully automatic,Braced • Fully automatic,Torch,Ranged
+216,Judgement Mk IV Subductor Shotpistol and Riot Shield,Arbites,11,High Damage,Precise,,,,,,,,,,,0.8,0.9,2,3,-0.56,0.16,,,,,,,,,Hip Fire • Semi-automatic,Braced • Semi-automatic,Bash,Ranged
+217,Kantrael Mk IIb Infantry Lasgun,Zealot,5,Versatile,High Capacity,,,,,,,,,,,0.7,0.8,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Semi-automatic,Aim Down Sights • Semi-automatic,Torch,Ranged
+218,Kantrael Mk IIb Infantry Lasgun,Psyker,3,Versatile,High Capacity,,,,,,,,,,,0.7,0.8,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Semi-automatic,Aim Down Sights • Semi-automatic,Torch,Ranged
+219,Kantrael Mk IIb Infantry Lasgun,Veteran,1,Versatile,High Capacity,,,,,,,,,,,0.7,0.8,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Semi-automatic,Aim Down Sights • Semi-automatic,Torch,Ranged
+220,Kantrael Mk IX Infantry Lasgun,Psyker,3,High Damage,High Capacity,,,,,,,,,,,0.7,0.8,2,3,-0.45,0.45,,,,,,,,,Hip Fire • Semi-automatic,Aim Down Sights • Semi-automatic,Torch,Ranged
+221,Kantrael Mk IX Infantry Lasgun,Veteran,1,High Damage,High Capacity,,,,,,,,,,,0.7,0.8,2,3,-0.45,0.45,,,,,,,,,Hip Fire • Semi-automatic,Aim Down Sights • Semi-automatic,Torch,Ranged
+222,Kantrael Mk IX Infantry Lasgun,Zealot,5,High Damage,High Capacity,,,,,,,,,,,0.7,0.8,2,3,-0.45,0.45,,,,,,,,,Hip Fire • Semi-automatic,Aim Down Sights • Semi-automatic,Torch,Ranged
+223,Kantrael Mk VII Infantry Lasgun,Zealot,5,Versatile,High Capacity,,,,,,,,,,,0.7,0.8,2,3,-0.45,0.45,,,,,,,,,Hip Fire • Semi-automatic,Aim Down Sights • Semi-automatic,Torch,Ranged
+224,Kantrael Mk VII Infantry Lasgun,Psyker,3,Versatile,High Capacity,,,,,,,,,,,0.7,0.8,2,3,-0.45,0.45,,,,,,,,,Hip Fire • Semi-automatic,Aim Down Sights • Semi-automatic,Torch,Ranged
+225,Kantrael Mk VII Infantry Lasgun,Veteran,1,Versatile,High Capacity,,,,,,,,,,,0.7,0.8,2,3,-0.45,0.45,,,,,,,,,Hip Fire • Semi-automatic,Aim Down Sights • Semi-automatic,Torch,Ranged
+226,Kantrael Mk X Heavy Laspistol,Zealot,8,Mobile,High Damage,,,,,,,,,,,0.89,0.96,2,3,0.53,0.98,,,,,,,,,Hip Fire • Semi-automatic,Aim Down Sights • Semi-automatic,Push,Ranged
+227,Kantrael Mk X Heavy Laspistol,Psyker,1,Mobile,High Damage,,,,,,,,,,,0.89,0.96,2,3,0.53,0.98,,,,,,,,,Hip Fire • Semi-automatic,Aim Down Sights • Semi-automatic,Push,Ranged
+228,Kantrael Mk X Heavy Laspistol,Veteran,8,Mobile,High Damage,,,,,,,,,,,0.89,0.96,2,3,0.53,0.98,,,,,,,,,Hip Fire • Semi-automatic,Aim Down Sights • Semi-automatic,Push,Ranged
+229,Kantrael Mk X Heavy Laspistol,Skitarii,3,Mobile,High Damage,,,,,,,,,,,0.89,0.96,2,3,0.53,0.98,,,,,,,,,Hip Fire • Semi-automatic,Aim Down Sights • Semi-automatic,Push,Ranged
+230,Karsolas Mk II Delver's Pickaxe,Ogryn,14,Crowd Control,High Damage,286.25,448.75,192.5,297.5,1.58,1.13,2,0.6,,,,,,,,,0.74,1.3,0.53,0.99,,,,,Strikedown,Vanguard,Pull,Melee
+231,Lucius MK IIIa Helbore Lasgun,Veteran,5,Precise,Charged Attack,,,,,,,,,,,,,,,,,,,,,,,,,Hip Fire • Semi-automatic,Charged Attack • Semi-automatic,Bayonet Attack,Ranged
+232,Krourk Mk IIa Cruncher,Ogryn,18,Charged Swings,High Damage,275,385,206.25,328.75,1.93,1.38,3,1,,,,,,,,,0.66,1.18,0.34,0.68,0.66,1.18,0.34,0.68,Strikedown,Relentless,Special Melee Attack,Melee
+233,Krourk Mk IIa Heavy Stubber,Ogryn,16,High Damage,Versatile,,,,,,,,,,,,,,,,,,,,,,,,,Hip Fire • Fully automatic,Braced • Semi-automatic,Torch,Ranged
+234,Krourk Mk IV Cleaver,Ogryn,8,Flurry,Cleaving Strike,125,175,260,360,,,,,,,0.88,1.03,2,3,-0.19,0.94,0.53,0.99,0.2,0.41,0.46,0.87,0.03,0.07,Strikedown,Vanguard,Punch,Melee
+235,Krourk Mk IV Double-Barrelled Shotgun,Zealot,12,Close Combat,High Damage,,,,,,,,,,,0.75,0.85,3,4,-0.2,0.8,,,,,,,,,Hip Fire • Shotgun,Aim Down Sights • Shotgun,Bash,Ranged
+236,Krourk Mk IV Double-Barrelled Shotgun,Veteran,12,Close Combat,High Damage,,,,,,,,,,,0.75,0.85,3,4,-0.2,0.8,,,,,,,,,Hip Fire • Shotgun,Aim Down Sights • Shotgun,Bash,Ranged
+237,Krourk Mk IV Double-Barrelled Shotgun,Arbites,12,Close Combat,High Damage,,,,,,,,,,,0.75,0.85,3,4,-0.2,0.8,,,,,,,,,Hip Fire • Shotgun,Aim Down Sights • Shotgun,Bash,Ranged
+238,Krourk Mk IV Double-Barrelled Shotgun,Hive Scum,2,Close Combat,High Damage,,,,,,,,,,,0.75,0.85,3,4,-0.2,0.8,,,,,,,,,Hip Fire • Shotgun,Aim Down Sights • Shotgun,Bash,Ranged
+239,Krourk Mk IV Double-Barrelled Shotgun,Psyker,18,Close Combat,High Damage,,,,,,,,,,,0.75,0.85,3,4,-0.2,0.8,,,,,,,,,Hip Fire • Shotgun,Aim Down Sights • Shotgun,Bash,Ranged
+240,Krourk Mk V Twin-Linked Heavy Stubber,Ogryn,6,High Capacity,Torrent,,,,,,,,,,,,,,,,,,,,,,,,,Hip Fire • Fully automatic,Braced • Fully automatic,Bash,Ranged
+241,Krourk Mk VI Cleaver,Ogryn,8,Flurry,Cleaving Strike,175,225,150,210,,,,,,,0.88,1.03,2,3,-0.19,0.94,0.53,0.99,0.2,0.41,0.58,1.05,0.16,0.35,Strikedown,Vanguard,Punch,Melee
+242,Krourk Mk VII Crusher,Zealot,4,Power Weapon,Unstoppable,218.75,306.25,137.5,192.5,1.88,1.63,3,1,,,,,,,,,0.67,1,0.14,0.25,0.67,1,0.37,0.6,Strikedown,Relentless,Warp Charged,Melee
+243,Krourk Mk VII Crusher,Arbites,7,Power Weapon,Unstoppable,218.75,306.25,137.5,192.5,1.88,1.63,3,1,,,,,,,,,0.67,1,0.14,0.25,0.67,1,0.37,0.6,Strikedown,Relentless,Warp Charged,Melee
+244,Lawbringer Mk IIb Power Falchion,Veteran,23,Cleaving Strike,Power Weapon,170,230,162.5,227.5,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,,,,,,,,,Strikedown,Vanguard,Warp Charged,Melee
+245,Lawbringer Mk IIb Power Falchion,Skitarii,18,Cleaving Strike,Power Weapon,170,230,162.5,227.5,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,,,,,,,,,Strikedown,Vanguard,Warp Charged,Melee
+246,Locke Mk IIb Spearhead Boltgun,Veteran,14,High Damage,Piercing Shots,,,,,,,,,,,0.7,0.8,2,3,-0.45,0.45,,,,,,,,,Hip Fire • Burst-fire,Aim Down Sights • Semi-automatic,Bash,Ranged
+247,Locke Mk IIb Spearhead Boltgun,Zealot,14,High Damage,Piercing Shots,,,,,,,,,,,0.7,0.8,2,3,-0.45,0.45,,,,,,,,,Hip Fire • Burst-fire,Aim Down Sights • Semi-automatic,Bash,Ranged
+248,Locke Mk IIb Spearhead Boltgun,Arbites,14,High Damage,Piercing Shots,,,,,,,,,,,0.7,0.8,2,3,-0.45,0.45,,,,,,,,,Hip Fire • Burst-fire,Aim Down Sights • Semi-automatic,Bash,Ranged
+249,Locke Mk III Spearhead Boltgun,Zealot,14,High Damage,Piercing Shots,,,,,,,,,,,0.7,0.8,2,3,-0.45,0.45,,,,,,,,,Hip Fire • Fully automatic,Aim Down Sights • Semi-automatic,Bash,Ranged
+250,Locke Mk III Spearhead Boltgun,Veteran,14,High Damage,Piercing Shots,,,,,,,,,,,0.7,0.8,2,3,-0.45,0.45,,,,,,,,,Hip Fire • Fully automatic,Aim Down Sights • Semi-automatic,Bash,Ranged
+251,Locke Mk III Spearhead Boltgun,Arbites,14,High Damage,Piercing Shots,,,,,,,,,,,0.7,0.8,2,3,-0.45,0.45,,,,,,,,,Hip Fire • Fully automatic,Aim Down Sights • Semi-automatic,Bash,Ranged
+252,Lorenz Mk V Kickback,Ogryn,1,Spreadshot,Close Combat,,,,,,,,,,,0.85,0.95,2,3,-0.23,0.23,,,,,,,,,Hip Fire • Shotgun,Braced • Shotgun,Bash,Ranged
+253,Lorenz Mk VI Rumbler,Ogryn,1,Explosive,Delayed Detonation,,,,,,,,,,,0.95,1.05,3,5,-0.45,0.45,,,,,,,,,Hip Fire • Projectile,Braced • Projectile,Bash,Ranged
+254,Lorenz Mk VII Thugshot,Ogryn,1,High Damage,Piercing Shots,,,,,,,,,,,0.85,0.95,2,3,-0.23,0.23,,,,,,,,,Hip Fire • Projectile,Braced • Projectile,Bash,Ranged
+255,Lucius Mk IV Helbore Lasgun,Veteran,5,Precise,Charged Attack,,,,,,,,,,,,,,,,,,,,,,,,,Hip Fire • Semi-automatic,Charged Attack • Semi-automatic,Bayonet Attack,Ranged
+256,Lucius MK V Helbore Lasgun,Veteran,5,Precise,Charged Attack,,,,,,,,,,,,,,,,,,,,,,,,,Hip Fire • Semi-automatic,Charged Attack • Semi-automatic,Bayonet Attack,Ranged
+257,M35 Magnacore Mk II Plasma Gun,Veteran,16,High Damage,Charged Attack,,,,,,,,,,,,,,,,,,,,,,,,,Hip Fire • Projectile,Braced • Projectile,Vent Heat,Ranged
+258,M35 Magnacore Mk II Plasma Gun,Skitarii,24,High Damage,Charged Attack,,,,,,,,,,,,,,,,,,,,,,,,,Hip Fire • Projectile,Braced • Projectile,Vent Heat,Ranged
+259,M35 Magnacore Mk III Plasma Gun,Veteran,16,High Damage,Charged Attack,,,,,,,,,,,,,,,,,,,,,,,,,Hip Fire • Projectile,Braced • Projectile,Vent Heat,Ranged
+260,M35 Magnacore Mk III Plasma Gun,Skitarii,24,High Damage,Charged Attack,,,,,,,,,,,,,,,,,,,,,,,,,Hip Fire • Projectile,Braced • Projectile,Vent Heat,Ranged
+261,Maccabian Mk II Duelling Sword,Psyker,6,Swiftstrike,Assassin,250,350,45,65,,,,,1,1.14,1,1.1,3,4,0.53,0.98,0.5,0.93,0.27,0.54,0.2,0.41,0.05,0.11,Assassin,Strikedown,Parry,Melee
+262,Maccabian Mk II Duelling Sword,Zealot,17,Swiftstrike,Assassin,250,350,45,65,,,,,1,1.14,1,1.1,3,4,0.53,0.98,0.5,0.93,0.27,0.54,0.2,0.41,0.05,0.11,Assassin,Strikedown,Parry,Melee
+263,Maccabian Mk II Duelling Sword,Veteran,10,Swiftstrike,Assassin,250,350,45,65,,,,,1,1.14,1,1.1,3,4,0.53,0.98,0.5,0.93,0.27,0.54,0.2,0.41,0.05,0.11,Assassin,Strikedown,Parry,Melee
+264,Maccabian Mk IV Duelling Sword,Psyker,6,Swiftstrike,Assassin,250,350,45,65,,,,,1,1.14,1,1.1,3,4,0.53,0.98,0.5,0.93,0.27,0.54,0.2,0.41,0.05,0.11,Assassin,Strikedown,Parry,Melee
+265,Maccabian Mk IV Duelling Sword,Zealot,17,Swiftstrike,Assassin,250,350,45,65,,,,,1,1.14,1,1.1,3,4,0.53,0.98,0.5,0.93,0.27,0.54,0.2,0.41,0.05,0.11,Assassin,Strikedown,Parry,Melee
+266,Maccabian Mk IV Duelling Sword,Veteran,10,Swiftstrike,Assassin,250,350,45,65,,,,,1,1.14,1,1.1,3,4,0.53,0.98,0.5,0.93,0.27,0.54,0.2,0.41,0.05,0.11,Assassin,Strikedown,Parry,Melee
+267,Maccabian Mk V Duelling Sword,Psyker,6,Swiftstrike,Assassin,225,315,45,65,0.88,0.63,1.25,0.75,1,1.14,1,1.1,3,4,0.53,0.98,0.42,0.81,0.27,0.54,0.2,0.41,0.05,0.11,Assassin,Strikedown,Parry,Melee
+268,Maccabian Mk V Duelling Sword,Zealot,17,Swiftstrike,Assassin,225,315,45,65,0.88,0.63,1.25,0.75,1,1.14,1,1.1,3,4,0.53,0.98,0.42,0.81,0.27,0.54,0.2,0.41,0.05,0.11,Assassin,Strikedown,Parry,Melee
+269,Maccabian Mk V Duelling Sword,Veteran,10,Swiftstrike,Assassin,225,315,45,65,0.88,0.63,1.25,0.75,1,1.14,1,1.1,3,4,0.53,0.98,0.42,0.81,0.27,0.54,0.2,0.41,0.05,0.11,Assassin,Strikedown,Parry,Melee
+270,Munitorum Mk I Sapper Shovel,Veteran,1,Versatile,Crowd Control,106.25,148.75,156.25,218.75,1.25,0.75,3,1,,,0.95,1.05,3,5,-0.45,0.45,0.58,1.05,0.13,0.28,0.58,1.05,0.34,0.68,Strikedown,Relentless,Special Melee Attack,Melee
+271,Munitorum Mk II Relic Blade,Zealot,18,Power Weapon,Cleaving Strike,206.25,288.75,187.5,262.5,,,,,1,1.14,0.8,0.9,2,3,-0.56,0.16,,,,,,,,,Strikedown,Vanguard,Warp Charged,Melee
+272,Munitorum Mk X Relic Blade,Zealot,18,Power Weapon,Cleaving Strike,250,350,157.5,232.5,,,,,1,1.14,0.8,0.9,2,3,-0.56,0.16,,,,,,,,,Vanguard,Strikedown,Warp Charged,Melee
+273,Nomanus Mk VI Electrokinetic Force Staff,Psyker,8,Force Weapon,Charged Attack,500,700,,,,,,,,,,,,,,,,,,,,,,,Staff-Bound Blaze Bolt • Projectile,Staff-Bound Smite,Strike,Ranged
+274,Munitorum Mk III Sapper Shovel,Veteran,1,Crowd Control,Strikedown,156.25,218.75,87.5,122.5,1.25,0.75,3,1,,,0.95,1.05,3,5,-0.45,0.45,0.58,1.05,0.34,0.68,0.53,0.99,0.06,0.14,Relentless,Strikedown,Switch Mode,Melee
+275,Munitorum Mk III Shock Maul,Zealot,16,Crowd Control,Shock,157.5,232.5,123.75,151.25,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,0.66,1.18,0.53,0.99,0.66,1.18,0.27,0.54,Vanguard,Strikedown,Special Melee Attack,Melee
+276,Munitorum Mk III Shock Maul,Psyker,17,Crowd Control,Shock,157.5,232.5,123.75,151.25,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,0.66,1.18,0.53,0.99,0.66,1.18,0.27,0.54,Vanguard,Strikedown,Special Melee Attack,Melee
+277,Munitorum Mk III Shock Maul,Veteran,17,Crowd Control,Shock,157.5,232.5,123.75,151.25,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,0.66,1.18,0.53,0.99,0.66,1.18,0.27,0.54,Vanguard,Strikedown,Special Melee Attack,Melee
+278,Munitorum Mk III Shock Maul,Arbites,13,Crowd Control,Shock,157.5,232.5,123.75,151.25,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,0.66,1.18,0.53,0.99,0.66,1.18,0.27,0.54,Vanguard,Strikedown,Special Melee Attack,Melee
+279,Munitorum Mk III Shock Maul,Skitarii,11,Crowd Control,Shock,157.5,232.5,123.75,151.25,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,0.66,1.18,0.53,0.99,0.66,1.18,0.27,0.54,Vanguard,Strikedown,Special Melee Attack,Melee
+280,Munitorum Mk VII Sapper Shovel,Veteran,1,Crowd Control,Strikedown,156.25,218.75,87.5,122.5,1.25,0.75,3,1,,,0.95,1.05,3,5,-0.45,0.45,0.58,1.05,0.34,0.68,0.53,0.99,0.06,0.14,Relentless,Relentless,Switch Mode,Melee
+281,Obscurus Mk II Blaze Force Sword,Psyker,2,Flurry,Force Weapon,65,95,200,300,,,,,1,1.14,0.98,1.13,3,5,-0.45,0.45,,,,,,,,,Assassin,Strikedown,Warp Charged,Melee
+282,Orestes Mk IV Assault Chainaxe,Zealot,13,High Damage,Ravage,187.5,262.5,95,125,1.13,0.88,3,1,,,0.9,1,2,3,-0.45,0.45,0.53,0.99,0.2,0.41,1.13,1.92,0.53,0.99,Strikedown,Vanguard,Warp Charged,Melee
+283,Orestes Mk IV Assault Chainaxe,Veteran,15,High Damage,Ravage,187.5,262.5,95,125,1.13,0.88,3,1,,,0.9,1,2,3,-0.45,0.45,0.53,0.99,0.2,0.41,1.13,1.92,0.53,0.99,Strikedown,Vanguard,Warp Charged,Melee
+284,Orestes Mk IV Assault Chainaxe,Psyker,16,High Damage,Ravage,187.5,262.5,95,125,1.13,0.88,3,1,,,0.9,1,2,3,-0.45,0.45,0.53,0.99,0.2,0.41,1.13,1.92,0.53,0.99,Strikedown,Vanguard,Warp Charged,Melee
+285,Orestes Mk IV Assault Chainaxe,Hive Scum,10,High Damage,Ravage,187.5,262.5,95,125,1.13,0.88,3,1,,,0.9,1,2,3,-0.45,0.45,0.53,0.99,0.2,0.41,1.13,1.92,0.53,0.99,Strikedown,Vanguard,Warp Charged,Melee
+286,Orestes Mk XII Assault Chainaxe,Zealot,13,High Damage,Ravage,130,190,97.5,132.5,1.13,0.88,3,1,,,0.9,1,2,3,-0.45,0.45,0.53,0.99,0.2,0.41,1.13,1.92,0.53,0.99,Relentless,Strikedown,Warp Charged,Melee
+287,Turtolsky Mk VI Heavy Sword,Zealot,2,Cleaving Strike,Strikedown,225,315,43.75,61.25,1.25,0.75,3,1,,,,,,,,,,,,,,,,,Vanguard,Strikedown,Special Melee Attack,Melee
+288,Turtolsky Mk VI Heavy Sword,Psyker,9,Cleaving Strike,Strikedown,225,315,43.75,61.25,1.25,0.75,3,1,,,,,,,,,,,,,,,,,Vanguard,Strikedown,Special Melee Attack,Melee
+289,Turtolsky Mk VI Heavy Sword,Veteran,6,Cleaving Strike,Strikedown,225,315,43.75,61.25,1.25,0.75,3,1,,,,,,,,,,,,,,,,,Vanguard,Strikedown,Special Melee Attack,Melee
+290,Orestes Mk XII Assault Chainaxe,Veteran,15,High Damage,Ravage,130,190,97.5,132.5,1.13,0.88,3,1,,,0.9,1,2,3,-0.45,0.45,0.53,0.99,0.2,0.41,1.13,1.92,0.53,0.99,Relentless,Strikedown,Warp Charged,Melee
+291,Orestes Mk XII Assault Chainaxe,Psyker,16,High Damage,Ravage,130,190,97.5,132.5,1.13,0.88,3,1,,,0.9,1,2,3,-0.45,0.45,0.53,0.99,0.2,0.41,1.13,1.92,0.53,0.99,Relentless,Strikedown,Warp Charged,Melee
+292,Orestes Mk XII Assault Chainaxe,Hive Scum,10,High Damage,Ravage,130,190,97.5,132.5,1.13,0.88,3,1,,,0.9,1,2,3,-0.45,0.45,0.53,0.99,0.2,0.41,1.13,1.92,0.53,0.99,Relentless,Strikedown,Warp Charged,Melee
+293,Orox Mk II & Mk III Battle Maul & Slab Shield,Ogryn,10,Crowd Control,Defensive,100,140,225,315,3,2,1.5,0.5,,,,,,,,,0.66,1.18,0.53,0.99,0.66,1.18,0.53,0.99,Relentless,Relentless,Defensive Stance,Melee
+294,Rashad Mk III Combat Axe,Zealot,1,Strikedown,Armour Piercing,175,245,187.5,262.5,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,0.74,1.3,0.13,0.28,0.74,1.3,0.53,0.99,Strikedown,Strikedown,Special Melee Attack,Melee
+295,Rashad Mk III Combat Axe,Psyker,1,Strikedown,Armour Piercing,175,245,187.5,262.5,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,0.74,1.3,0.13,0.28,0.74,1.3,0.53,0.99,Strikedown,Strikedown,Special Melee Attack,Melee
+296,Rashad Mk III Combat Axe,Veteran,1,Strikedown,Armour Piercing,175,245,187.5,262.5,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,0.74,1.3,0.13,0.28,0.74,1.3,0.53,0.99,Strikedown,Strikedown,Special Melee Attack,Melee
+297,Rashad Mk III Combat Axe,Arbites,1,Strikedown,Armour Piercing,175,245,187.5,262.5,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,0.74,1.3,0.13,0.28,0.74,1.3,0.53,0.99,Strikedown,Strikedown,Special Melee Attack,Melee
+298,Rashad Mk III Combat Axe,Hive Scum,4,Strikedown,Armour Piercing,175,245,187.5,262.5,,,,,1,1.14,0.95,1.05,3,5,-0.45,0.45,0.74,1.3,0.13,0.28,0.74,1.3,0.53,0.99,Strikedown,Strikedown,Special Melee Attack,Melee
+299,Rifthaven Mk II Inferno Force Staff,Psyker,15,Force Weapon,Charged Attack,15,21,,,,,,,,,,,,,,,,,,,,,,,Staff-Bound Coruscation • Semi-automatic,Staff-Bound Coruscation,Strike,Ranged
+300,Scandar Mk III Power Sword,Veteran,13,Cleaving Strike,Power Weapon,150,210,100,140,,,,,1,1.14,0.8,0.9,2,3,-0.45,0.45,,,,,,,,,Vanguard,Vanguard,Warp Charged,Melee
+301,Tigrus Mk III Heavy Eviscerator,Zealot,11,Unstoppable,Ravage,218.75,306.25,210,300,,,,,,,0.8,0.9,2,3,-0.45,0.45,0.74,1.3,0.34,0.68,0.74,1.3,,,Strikedown,Vanguard,Warp Charged,Melee
+302,Tigrus Mk XV Heavy Eviscerator,Zealot,11,Unstoppable,Ravage,218.75,306.25,157.5,232.5,,,,,,,0.8,0.9,2,3,-0.45,0.45,0.74,1.3,0.34,0.68,0.74,1.3,0.16,0.35,Relentless,Strikedown,Warp Charged,Melee
+303,Turtolsky Mk IX Heavy Sword,Zealot,2,Cleaving Strike,Strikedown,225,315,50,70,1.25,0.75,3,1,,,,,,,,,,,,,,,,,Vanguard,Strikedown,Special Melee Attack,Melee
+304,Turtolsky Mk IX Heavy Sword,Psyker,9,Cleaving Strike,Strikedown,225,315,50,70,1.25,0.75,3,1,,,,,,,,,,,,,,,,,Vanguard,Strikedown,Special Melee Attack,Melee
+305,Turtolsky Mk IX Heavy Sword,Veteran,6,Cleaving Strike,Strikedown,225,315,50,70,1.25,0.75,3,1,,,,,,,,,,,,,,,,,Vanguard,Strikedown,Special Melee Attack,Melee
+306,Turtolsky Mk IX Heavy Sword,Hive Scum,8,Cleaving Strike,Strikedown,225,315,50,70,1.25,0.75,3,1,,,,,,,,,,,,,,,,,Vanguard,Strikedown,Special Melee Attack,Melee
+307,Turtolsky Mk VI Heavy Sword,Hive Scum,8,Cleaving Strike,Strikedown,225,315,43.75,61.25,1.25,0.75,3,1,,,,,,,,,,,,,,,,,Vanguard,Strikedown,Special Melee Attack,Melee
+308,Turtolsky Mk VII Heavy Sword,Zealot,2,Cleaving Strike,Strikedown,225,315,50,70,1.25,0.75,3,1,,,,,,,,,,,,,,,,,Vanguard,Strikedown,Special Melee Attack,Melee
+309,Turtolsky Mk VII Heavy Sword,Psyker,9,Cleaving Strike,Strikedown,225,315,50,70,1.25,0.75,3,1,,,,,,,,,,,,,,,,,Vanguard,Strikedown,Special Melee Attack,Melee
+310,Turtolsky Mk VII Heavy Sword,Veteran,6,Cleaving Strike,Strikedown,225,315,50,70,1.25,0.75,3,1,,,,,,,,,,,,,,,,,Vanguard,Strikedown,Special Melee Attack,Melee
+311,Turtolsky Mk VII Heavy Sword,Hive Scum,8,Cleaving Strike,Strikedown,225,315,50,70,1.25,0.75,3,1,,,,,,,,,,,,,,,,,Vanguard,Strikedown,Special Melee Attack,Melee
+312,Vraks Mk II Braced Autogun,Zealot,2,Torrent,High Capacity,,,,,,,,,,,0.8,0.9,,,-0.45,0.45,,,,,,,,,Hip Fire • Fully automatic,Braced • Fully automatic,Bash,Ranged
+313,Vraks Mk II Braced Autogun,Veteran,7,Torrent,High Capacity,,,,,,,,,,,0.8,0.9,,,-0.45,0.45,,,,,,,,,Hip Fire • Fully automatic,Braced • Fully automatic,Bash,Ranged
+314,Vraks Mk II Braced Autogun,Psyker,5,Torrent,High Capacity,,,,,,,,,,,0.8,0.9,,,-0.45,0.45,,,,,,,,,Hip Fire • Fully automatic,Braced • Fully automatic,Bash,Ranged
+315,Vraks Mk II Braced Autogun,Arbites,7,Torrent,High Capacity,,,,,,,,,,,0.8,0.9,,,-0.45,0.45,,,,,,,,,Hip Fire • Fully automatic,Braced • Fully automatic,Bash,Ranged
+316,Vraks Mk II Braced Autogun,Hive Scum,5,Torrent,High Capacity,,,,,,,,,,,0.8,0.9,,,-0.45,0.45,,,,,,,,,Hip Fire • Fully automatic,Braced • Fully automatic,Bash,Ranged
+317,Vraks Mk II Braced Autogun,Skitarii,8,Torrent,High Capacity,,,,,,,,,,,0.8,0.9,,,-0.45,0.45,,,,,,,,,Hip Fire • Fully automatic,Braced • Fully automatic,Bash,Ranged
+318,Vraks Mk V Infantry Autogun,Psyker,1,Torrent,High Capacity,,,,,,,,,,,0.89,0.96,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Fully automatic,Aim Down Sights • Fully automatic,Torch,Ranged
+319,Vraks Mk V Infantry Autogun,Veteran,1,Torrent,High Capacity,,,,,,,,,,,0.89,0.96,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Fully automatic,Aim Down Sights • Fully automatic,Torch,Ranged
+320,Vraks Mk V Infantry Autogun,Zealot,14,Torrent,High Capacity,,,,,,,,,,,0.89,0.96,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Fully automatic,Aim Down Sights • Fully automatic,Torch,Ranged
+321,Vraks Mk V Infantry Autogun,Arbites,1,Torrent,High Capacity,,,,,,,,,,,0.89,0.96,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Fully automatic,Aim Down Sights • Fully automatic,Torch,Ranged
+322,Vraks Mk V Infantry Autogun,Hive Scum,7,Torrent,High Capacity,,,,,,,,,,,0.89,0.96,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Fully automatic,Aim Down Sights • Fully automatic,Torch,Ranged
+323,Vraks Mk V Infantry Autogun,Skitarii,5,Torrent,High Capacity,,,,,,,,,,,0.89,0.96,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Fully automatic,Aim Down Sights • Fully automatic,Torch,Ranged
+324,Zarona Mk IIa Quickdraw Stub Revolver,Psyker,7,High Damage,Precise,,,,,,,,,,,0.89,0.96,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Semi-automatic,Aim Down Sights • Semi-automatic,Bash,Ranged
+325,Zarona Mk IIa Quickdraw Stub Revolver,Veteran,2,High Damage,Precise,,,,,,,,,,,0.89,0.96,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Semi-automatic,Aim Down Sights • Semi-automatic,Bash,Ranged
+326,Zarona Mk IIa Quickdraw Stub Revolver,Zealot,7,High Damage,Precise,,,,,,,,,,,0.89,0.96,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Semi-automatic,Aim Down Sights • Semi-automatic,Bash,Ranged
+327,Zarona Mk IIa Quickdraw Stub Revolver,Arbites,2,High Damage,Precise,,,,,,,,,,,0.89,0.96,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Semi-automatic,Aim Down Sights • Semi-automatic,Bash,Ranged
+328,Zarona Mk IIa Quickdraw Stub Revolver,Hive Scum,4,High Damage,Precise,,,,,,,,,,,0.89,0.96,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Semi-automatic,Aim Down Sights • Semi-automatic,Bash,Ranged
+329,Zarona Mk IIa Quickdraw Stub Revolver,Skitarii,16,High Damage,Precise,,,,,,,,,,,0.89,0.96,2,3,-0.2,0.8,,,,,,,,,Hip Fire • Semi-automatic,Aim Down Sights • Semi-automatic,Bash,Ranged
+330,Zarona Mk VI Combat Shotgun,Zealot,3,Close Combat,High Damage,,,,,,,,,,,0.75,0.85,3,4,-0.2,0.8,,,,,,,,,Hip Fire • Shotgun,Aim Down Sights • Shotgun,Special Ammo,Ranged
+331,Zarona Mk VI Combat Shotgun,Veteran,8,Close Combat,High Damage,,,,,,,,,,,0.75,0.85,3,4,-0.2,0.8,,,,,,,,,Hip Fire • Shotgun,Aim Down Sights • Shotgun,Special Ammo,Ranged
+332,Zarona Mk VI Combat Shotgun,Psyker,11,Close Combat,High Damage,,,,,,,,,,,0.75,0.85,3,4,-0.2,0.8,,,,,,,,,Hip Fire • Shotgun,Aim Down Sights • Shotgun,Special Ammo,Ranged
+333,Zarona Mk VI Combat Shotgun,Arbites,8,Close Combat,High Damage,,,,,,,,,,,0.75,0.85,3,4,-0.2,0.8,,,,,,,,,Hip Fire • Shotgun,Aim Down Sights • Shotgun,Special Ammo,Ranged
+334,Zarona Mk VI Combat Shotgun,Hive Scum,12,Close Combat,High Damage,,,,,,,,,,,0.75,0.85,3,4,-0.2,0.8,,,,,,,,,Hip Fire • Shotgun,Aim Down Sights • Shotgun,Special Ammo,Ranged

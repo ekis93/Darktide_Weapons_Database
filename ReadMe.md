@@ -4,8 +4,8 @@ A SQL Server database of weapon stats for *Warhammer 40,000: Darktide* — damag
 
 Notice: This is my first database so you may come across things that are not 100% correct in terms of format. Feel free to send an issue if anything seems off.
 
-> **Game version:** [1.13.0 / 2026-10-25]
-> **Last updated:** [2026-10-25]
+> **Game version:** [1.13.0 / 2026-10-24]
+> **Last updated:** [2026-10-24]
 
 ---
 

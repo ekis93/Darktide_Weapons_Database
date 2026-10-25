@@ -66,9 +66,9 @@ SELECT DISTINCT
     damage.UnarmouredBodyHigh AS UnArmrBodyDmgHi,
     extra.BlastRadiusBlastRadiusHigh AS BlastRadHi,
     blessing.Description
-FROM DamageBreakdown damage
-JOIN ExtraStats extra ON extra.Weapon = damage.Weapon
-JOIN Blessings blessing ON blessing.Weapon = damage.Weapon
+FROM Darktide_Weapons.DamageBreakdown damage
+JOIN Darktide_Weapons.ExtraStats extra ON extra.Weapon = damage.Weapon
+JOIN Darktide_Weapons.Blessings blessing ON blessing.Weapon = damage.Weapon
 WHERE blessing.Description LIKE '%explosion%'
 ORDER BY BlastRadHi DESC, UnArmrBodyDmgHi DESC;
 ```
@@ -76,14 +76,14 @@ ORDER BY BlastRadHi DESC, UnArmrBodyDmgHi DESC;
 **Best weapons vs. Carapace armour (weakspot hits):**
 ```sql
 SELECT Weapon, Class, CarapaceArmouredWeakspotHigh
-FROM DamageBreakdown
+FROM Darktide_Weapons.DamageBreakdown
 ORDER BY CarapaceArmouredWeakspotHigh DESC;
 ```
 
 **All blessings for one weapon:**
 ```sql
 SELECT Blessing, Description
-FROM Blessings
+FROM Darktide_Weapons.Blessings
 WHERE Weapon LIKE '%[weapon name]%';
 ```
 

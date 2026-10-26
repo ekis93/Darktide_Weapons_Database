@@ -43,10 +43,10 @@ RESTORE FILELISTONLY FROM DISK = 'C:\path\to\Darktide_Weapons.bak';
 ```
 Then restore it, moving the files into your own data folder:
 ```sql
-RESTORE DATABASE Darktide
-FROM DISK = 'C:\path\to\Darktide.bak'
-WITH MOVE '[logical data name]' TO 'C:\...\MSSQL\DATA\Darktide.mdf',
-     MOVE '[logical log name]'  TO 'C:\...\MSSQL\DATA\Darktide_log.ldf',
+RESTORE DATABASE Darktide_Weapons
+FROM DISK = 'C:\path\to\Darktide_Weapons.bak'
+WITH MOVE '[logical data name]' TO 'C:\...\MSSQL\DATA\Darktide_Weapons.mdf',
+     MOVE '[logical log name]'  TO 'C:\...\MSSQL\DATA\Darktide_Weapons_log.ldf',
      RECOVERY;
 ```
 On Linux, use `/var/opt/mssql/data/` as the target folder. Put the `.bak` somewhere the `mssql` user can read it.

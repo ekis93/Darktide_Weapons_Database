@@ -13,7 +13,7 @@ Notice: This is my first database so you may come across things that are not 100
 
 | File | What it is | Use it if… |
 |---|---|---|
-| `Darktide.bak` | SQL Server backup (see [Releases](../../releases)) | You have **SQL Server 2025 (17.x) or newer** |
+| `Darktide_Weapons.bak` | SQL Server backup (see [Releases](../../releases)) | You have **SQL Server 2025 (17.x) or newer** |
 | `csv/` | One CSV file per table | You want to open the data in Excel, Python, etc. |
 | `schema/` | Table definitions only, one file per table | You just want to see the structure |
 
@@ -35,11 +35,11 @@ Notice: This is my first database so you may come across things that are not 100
 
 ### Restore the .bak (SQL Server 2025+ only)
 
-**SSMS:** right-click **Databases**, then **Restore Database… → Device**, pick `Darktide.bak` and click **OK**.
+**SSMS:** right-click **Databases**, then **Restore Database… → Device**, pick `Darktide_Weapons.bak` and click **OK**.
 
 **SQL:** first check the logical file names in the backup:
 ```sql
-RESTORE FILELISTONLY FROM DISK = 'C:\path\to\Darktide.bak';
+RESTORE FILELISTONLY FROM DISK = 'C:\path\to\Darktide_Weapons.bak';
 ```
 Then restore it, moving the files into your own data folder:
 ```sql

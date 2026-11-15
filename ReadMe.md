@@ -1,21 +1,20 @@
 # Darktide Weapon Database
 
-A SQL Server database of weapon stats for *Warhammer 40,000: Darktide* — damage breakdowns, extra stats, blessings, perks and specs for every weapon.
+An SQL Server database containing weapon stats for the game Warhammer 40K: Darktide.
 
-Notice: This is my first database so you may come across things that are not 100% correct in terms of format. Feel free to send an issue if anything seems off.
+Notice: This is my first database so you may come across things that are not 100% correct in terms of format. Feel free to open an issue if anything seems off.
 
-> **Game version:** [1.13.0 / 2026-10-24]
-> **Last updated:** [2026-10-24]
+> **Game version:** 1.13.4<br>
+> **Last updated:** 2026-11-15
 
 ---
 
 ## Contents
 
-| File | What it is | Use it if… |
+| Folder | What it contains | Use if… |
 |---|---|---|
-| `Darktide_Weapons.bak` | SQL Server backup (see [Releases](../../releases)) | You have **SQL Server 2025 (17.x) or newer** |
 | `csv/` | One CSV file per table | You want to open the data in Excel, Python, etc. |
-| `schema/` | Table definitions only, one file per table | You just want to see the structure |
+| `sql/` | Table structure and all data | You want to rebuild the tables |
 
 ---
 
@@ -23,87 +22,114 @@ Notice: This is my first database so you may come across things that are not 100
 
 | Table | Description |
 |---|---|
-| `DamageBreakdown` | Damage per hit vs. each enemy armour type (Unarmoured, Infested, Flak, Unyielding, Carapace, Maniac) — body, weakspot, critical and critical weakspot, low/high values |
-| `ExtraStats` | Detailed weapon stats: ammo, blast radius, cleave, stagger, crit bonuses, mobility, stability, reload, etc. (low/high values) |
-| `Blessings` | Available blessings per weapon with descriptions |
-| `Perks` | Available perks per weapon with low/high values and units |
-| `Specs` | Base weapon specs: attack speed, dodge, sprint, actions and weapon type |
+| `Action` | Action names (Strikedown, Vanguard etc), action types (Primary, Secondary etc), Attack chains (first hit, second hit etc) |
+| `Class` | Class names |
+| `ClassWeapon` | Available weapons for each class |
+| `Damage` | Damage breakdown for each weapon. Damage output is determined by the Action, Enemy, Hit and Weapon type  |
+| `Enemy` | Enemy types (Unarmoured, Flak Armoured etc) |
+| `Hit` | Hit types (Body, Critical etc) |
+| `Weapon` | Full weapon names |
 
 ---
 
 ## Installation
 
-### Restore the .bak (SQL Server 2025+ only)
+### Option 1: Create tables from file - AttackData_full.sql
 
-**SSMS:** right-click **Databases**, then **Restore Database… → Device**, pick `Darktide_Weapons.bak` and click **OK**.
+**SSMS:** 
+1. Connect to the server in Object Explorer.
+2. Create database: Right-click Databases -> New Database -> name it -> click OK
+3. Open SQL file: File -> Open -> File -> pick your sql file
+4. Select database: Toolbar -> database dropdown -> pick your database
+5. Execute: Make sure nothing is highlighted -> click Execute (or press F5)
 
-**SQL:** first check the logical file names in the backup:
-```sql
-RESTORE FILELISTONLY FROM DISK = 'C:\path\to\Darktide_Weapons.bak';
-```
-Then restore it, moving the files into your own data folder:
-```sql
-RESTORE DATABASE Darktide_Weapons
-FROM DISK = 'C:\path\to\Darktide_Weapons.bak'
-WITH MOVE '[logical data name]' TO 'C:\...\MSSQL\DATA\Darktide_Weapons.mdf',
-     MOVE '[logical log name]'  TO 'C:\...\MSSQL\DATA\Darktide_Weapons_log.ldf',
-     RECOVERY;
-```
-On Linux, use `/var/opt/mssql/data/` as the target folder. Put the `.bak` somewhere the `mssql` user can read it.
+**Other SQL Server tools (DataGrip, Azure Data Studio, sqlcmd):**
+- Create an empty database -> use database -> run `AttackData_full.sql`
+- In DataGrip: right-click the database -> SQL Scripts -> Run SQL Script
+- sqlcmd: `sqlcmd -S <server> -d <database> -i sql/AttackData_full.sql`
+
+> The script is written for Microsoft SQL Server. It will not run on other database systems.
+
 
 ### Option 2: CSV files
 
-Open them in any spreadsheet program, or load them into the database of your choice. Each file has a header row with the column names.
+The csv/ folder has one file per table. Open them in any spreadsheet program, or load them into the database of your choice. Each file has a header row with the column names.
 
 ---
 
 ## Example queries
 
-**Weapons with explosive blessings, sorted by blast radius:**
+
+**All attacks for a weapon vs. an enemy type, sorted by max damage (highest first)**
+> Chained attacks can share the same damage output (e.g. Attack_chain 1 and 2 may share the same damage values).
 ```sql
-SELECT DISTINCT
-    damage.Weapon,
-    damage.UnarmouredBodyHigh AS UnArmrBodyDmgHi,
-    extra.BlastRadiusBlastRadiusHigh AS BlastRadHi,
-    blessing.Description
-FROM Darktide_Weapons.DamageBreakdown damage
-JOIN Darktide_Weapons.ExtraStats extra ON extra.Weapon = damage.Weapon
-JOIN Darktide_Weapons.Blessings blessing ON blessing.Weapon = damage.Weapon
-WHERE blessing.Description LIKE '%explosion%'
-ORDER BY BlastRadHi DESC, UnArmrBodyDmgHi DESC;
+SELECT WeaponName,
+       ActionType,
+       ActionComboID AS Attack_chain,
+       ActionName,
+       HitType,
+       EnemyType,
+       DamageNumbHi
+FROM AttackData.Damage
+WHERE WeaponName = N'Cadia Mk XIIIg Assault Chainsword'
+  AND EnemyType  = N'Carapace Armoured'
+ORDER BY DamageNumbHi DESC, ActionType, Attack_chain;
 ```
 
-**Best weapons vs. Carapace armour (weakspot hits):**
-```sql
-SELECT Weapon, Class, CarapaceArmouredWeakspotHigh
-FROM Darktide_Weapons.DamageBreakdown
-ORDER BY CarapaceArmouredWeakspotHigh DESC;
-```
+**Strongest attack for each given weapon vs. a given enemy type**
+> Returns the single highest-damage attack for each listed weapon. If several attacks tie for the top value, the tie-breakers in `ORDER BY` decide which row is shown.
 
-**All blessings for one weapon:**
+> Can be used for comparing damage output between different marks, for instance:
 ```sql
-SELECT Blessing, Description
-FROM Darktide_Weapons.Blessings
-WHERE Weapon LIKE '%[weapon name]%';
+SELECT WeaponName,
+       ActionType,
+       Attack_chain,
+       ActionName,
+       HitType,
+       EnemyType,
+       DamageNumbHi
+FROM (
+         SELECT WeaponName,
+                ActionType,
+                ActionComboID AS Attack_chain,
+                ActionName,
+                HitType,
+                EnemyType,
+                DamageNumbHi,
+                ROW_NUMBER() OVER (
+                    PARTITION BY WeaponName
+                    ORDER BY DamageNumbHi DESC, ActionType, ActionComboID
+                    ) AS rn
+         FROM AttackData.Damage
+         WHERE WeaponName IN (N'Accatran Mk VIc Recon Lasgun',
+                              N'Accatran Mk XII Recon Lasgun',
+                              N'Accatran Mk XIV Recon Lasgun')
+           AND EnemyType  = N'Unarmoured'
+     ) AS ranked
+WHERE rn = 1
+ORDER BY DamageNumbHi DESC, WeaponName;
 ```
 
 ---
 
 ## Data source
 
-[Data copied manually from https://darktide.gameslantern.com/]
+The damage values were calculated from the game's decompiled scripts in [Aussiemon/Darktide-Source-Code](https://github.com/Aussiemon/Darktide-Source-Code). Weapon names and class availability come from [Games Lantern](https://darktide.gameslantern.com/).
 
-Notice: While the data has been copied by hand, the sorting of the copied data into CSV was done by Claude.ai.
+**AI NOTICE:**
+
+The database design (tables, keys and relationships) and the schema script were created by hand. Claude.ai was used to generate the data: it calculated the damage values by running the game’s own weapon stat code from the decompiled Lua files, matched the game’s internal weapon IDs to their in-game names, and generated INSERT scripts from the custom schema script.
 
 ## Contributing
 
 Found a wrong value or missing weapon? [Open an issue](../../issues) or submit a pull request.
 
-# License
+## License
 
 The schema and documentation in this repository are dedicated to the public domain under [CC0 1.0](LICENSE.txt).
 
-The weapon data was collected from [Games Lantern](https://darktide.gameslantern.com/) and remains subject to their [terms of use](https://gameslantern.com/terms-of-use). Game data and names are the property of Fatshark.
+Game data and names are the property of Fatshark.
+
 ---
 
 *This is a fan project and is not affiliated with or endorsed by Fatshark or Games Workshop. Warhammer 40,000: Darktide is a trademark of its respective owners.*

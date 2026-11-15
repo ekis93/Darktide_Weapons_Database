@@ -1,0 +1,52 @@
+ActionName,ActionType,ActionComboID
+Activate,Special,1
+ADS,Secondary,1
+Assassin,Primary,1
+Assassin,Primary,2
+Assassin,Primary,3
+Assassin,Primary,4
+Bash,Special,1
+Bayonet,Special,1
+Braced,Extra,1
+Braced,Secondary,1
+Charged,Primary,1
+Charged,Secondary,1
+Flashlight,Special,1
+Hipfire,Primary,1
+Hook Pull,Special,1
+Mode Switch,Special,1
+Parry,Special,1
+Punch,Special,1
+Push,Special,1
+Relentless,Primary,1
+Relentless,Primary,2
+Relentless,Primary,3
+Relentless,Primary,4
+Relentless,Primary,5
+Relentless,Primary,6
+Relentless,Secondary,1
+Relentless,Secondary,2
+Relentless,Secondary,3
+Relentless,Secondary,4
+Special Ammo,Special,1
+Special Attack,Special,1
+Strikedown,Primary,1
+Strikedown,Primary,2
+Strikedown,Primary,3
+Strikedown,Primary,4
+Strikedown,Primary,5
+Strikedown,Primary,6
+Strikedown,Secondary,1
+Strikedown,Secondary,2
+Strikedown,Secondary,3
+Strikedown,Secondary,4
+Throw,Special,1
+Vanguard,Primary,1
+Vanguard,Primary,2
+Vanguard,Primary,3
+Vanguard,Primary,4
+Vanguard,Primary,5
+Vanguard,Secondary,1
+Vanguard,Secondary,2
+Vanguard,Secondary,3
+Vanguard,Secondary,4

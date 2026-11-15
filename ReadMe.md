@@ -14,7 +14,7 @@ Notice: This is my first database so you may come across things that are not 100
 | Folder | What it contains | Use if… |
 |---|---|---|
 | `csv/` | One CSV file per table | You want to open the data in Excel, Python, etc. |
-| `sql/` | Table structure and all data | Rebuild the tables |
+| `sql/` | Table structure and all data | You want to rebuild the tables |
 
 ---
 
